@@ -51,7 +51,10 @@ let removeDuplicates l =
 
 
 (* Small hint: see how ffor is implemented below *)
-let rec wwhile (f,b) = failwith "to be written"
+let rec wwhile (f,b) = match f b with 
+	| (b', true) -> wwhile (f,b')
+	| (b', false) -> b' ;;	
+
 
 (* fill in the code wherever it says : failwith "to be written" *)
 let fixpoint (f,b) = wwhile ((failwith "to be written"),b)
