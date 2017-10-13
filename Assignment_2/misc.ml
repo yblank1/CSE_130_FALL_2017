@@ -51,13 +51,24 @@ let removeDuplicates l =
 
 
 (* Small hint: see how ffor is implemented below *)
+
+(* TODO -- proper header
+  TODO TODO -- Is this tail recursive?? I think it is because it does 
+	nothing within each of the recursive calls once it is returned
+	but make sure about this...
+*)
 let rec wwhile (f,b) = match f b with 
 	| (b', true) -> wwhile (f,b')
 	| (b', false) -> b' ;;	
 
 
+
+
 (* fill in the code wherever it says : failwith "to be written" *)
-let fixpoint (f,b) = wwhile ((failwith "to be written"),b)
+let fixpoint (f,b) = 
+	let new_func f' b' = let a' = f' b' in 
+		(a', a'!= b') in 
+		wwhile (new_func f, b);;
 
 
 (* ffor: int * int * (int -> unit) -> unit
