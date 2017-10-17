@@ -19,7 +19,31 @@
    the expression.
 *)
 
-let rec build (rand,depth) = failwith "to be implemented"
+(* TODO TODO TODO TODO remove REMOVE 
+
+
+let buildX()                       = VarX
+let buildY()                       = VarY
+let buildSine(e)                   = Sine(e)
+let buildCosine(e)                 = Cosine(e)
+let buildAverage(e1,e2)            = Average(e1,e2)
+let buildTimes(e1,e2)              = Times(e1,e2)
+let buildThresh(a,b,a_less,b_less) = Thresh(a,b,a_less,b_less)
+*)
+
+let rec build (rand,depth) = 
+	if depth = 0 then 
+		match rand(0, 2) with
+		  0 -> buildX()
+		| _ -> buildY()
+	else  
+		match rand(0, 5) with
+		  0  -> buildSine(build(rand, depth-1))
+		| 1  -> buildCosine(build(rand, depth-1)) 
+		| 2  -> buildAverage(build(rand, depth-1), build(rand, depth-1))
+		| 3  -> buildTimes(build(rand, depth-1), build(rand, depth-1))
+		| _  -> buildThresh(build(rand, depth-1), build(rand, depth-1), build(rand, depth-1), build(rand, depth-1))		
+;;
 
 let rec build2 (rand,depth) = failwith "to be implemented"
 
