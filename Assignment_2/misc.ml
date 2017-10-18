@@ -2,16 +2,24 @@
  * misc.ml
  *)
 
+(* Yitzchak Blank
+ PID: A13069713
+*)
+ 
 (* ***** DOCUMENT ALL FUNCTIONS YOU WRITE OR COMPLETE ***** *)
 
-(* TODO - HEADER 
-Basic Info 
+(*  
+This function finds whether a value is present in a list of tuples, where 
+each of the tuples contains an index and an associated value. If the index
+being searched for is found, the associated value is returned. Otherwise, a 
+default return value d is returned. This is implemented using tail recursion 
+where if the value is not found at the front of the list, the function 
+calls  itself recursively, passing in the remainder of the list.  
+
 Params: d - default int returned if the value is not found
       	k - the value to search for within the list
-	l - the list containing sets (ki, vi). If k is found, then return it's 
+	    l - the list containing sets (ki, vi). If k is found, then return it's 
 	    vi. Else return d
-IMPORTANT - MUST USE TAIL RECURSION 
-I THINK THIS IS TAIL RECURSION BUT MUST TEST FURTHER -- TODO TODO TODO
 *)
 let rec assoc (d,k,l) = match l with 
 	| [] -> d
@@ -19,25 +27,16 @@ let rec assoc (d,k,l) = match l with
 	| h::t -> assoc (d,k,t);;
 
 
-(* fill in the code wherever it says : failwith "to be written" *)
 
 (* 
-TODO -- Proper header 
-Parameter - l is the list which will have duplicates removed from
+This function removes duplicates within a list, while keeping the list in the
+same order. It does this by reversing the list and using tail recursion to 
+continuously pass in the remainder of the list as well as the part of the 
+list that has no duplicatess. 
 
-within the helper function
-seen is going to hold the list that will remain - ie there are no duplicates
-rest is obviously the rest of the list that has not yet been processed
-
-IDEA:
-Reverse the list. For each head of the list, run List.mem between h and t. If
-true, then discard a. Otherwise, append it to rest. Once done, reverse the seen
-list to recover original order... Note the last part is already done...  
-
-
-This works but seems inefficient. I added the first 3 List.rev calls. Should 
-rethink the logic here... Otherwise it works pending further testing --- TODO 
+Params:     l - the list who's duplicates are being removed. 
 *)
+
 let removeDuplicates l = 
   let rec helper (seen,rest) = 
       match List.rev(rest) with 
@@ -50,12 +49,21 @@ let removeDuplicates l =
       List.rev (helper ([],l))
 
 
-(* Small hint: see how ffor is implemented below *)
 
-(* TODO -- proper header
-  TODO TODO -- Is this tail recursive?? I think it is because it does 
-	nothing within each of the recursive calls once it is returned
-	but make sure about this...
+(*
+Runs a function on a parameter b continuously, where the function returns a
+tuple containing a bool and the result of the function. If the bool is true, 
+wwhile runs the function again with the output from the last time it was run. 
+Otherwise, it returns false. 
+
+This was implemented using tail recursion, where if the function is run again
+it is simply passed again with the new input into the wwhile function itself. 
+If the function is not to be run again, wwhile returns the result imnediately 
+with no further calculation.
+
+Params:     f - the function being run. It must return in the form bool * a'
+            b - the paramter for f
+ 
 *)
 let rec wwhile (f,b) = match f b with 
 	| (b', true) -> wwhile (f,b')
@@ -64,7 +72,18 @@ let rec wwhile (f,b) = match f b with
 
 
 
-(* fill in the code wherever it says : failwith "to be written" *)
+(* 
+This function repeatedly takes a function and argument as a paramter and 
+repeatedly runs the function on the parameter until the output is equal to the
+most recent input, and then returns that most recent input/output. 
+
+It does this by nodifying the input function to return a tuple b' * bool, where
+the bool represents whether the input is not equal to the output. This new
+function is then passed to wwhile.
+
+Params:     f - the function being run. 
+            b - the parameter for f 
+*)
 let fixpoint (f,b) = 
 	let new_func f' b' = let a' = f' b' in 
 		(a', a'!= b') in 
