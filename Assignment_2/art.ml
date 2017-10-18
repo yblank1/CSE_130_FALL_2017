@@ -57,7 +57,7 @@ let rec build2 (rand,depth) = failwith "to be implemented"
  * they should return (depth,seed1,seed2)
  *)
 
-let g1 () = failwith "to be implemented"  
+let g1 () = (5, 6, 7);; 
 let g2 () = failwith "to be implemented"  
 let g3 () = failwith "to be implemented"  
 
