@@ -29,22 +29,30 @@
 (******************* 1. Warm Up   ********************************)
 (*****************************************************************)
 
+(* sqsum -- TODO - add type
+This method gives the sum of squares of ints in a list. 
+It does so by passing a summing function to fold_left.
+
+Params: xs -> the list of ints to take the sum of squares of
+Return value: The sum of the squares of the ints in the list. 
+*)
 let sqsum xs = 
   let f a x = a+(x*x) in
   let base = 0 in
     List.fold_left f base xs
 
-let pipe fs = 
-  let f a x = failwith "to be implemented" in
-  let base = failwith "to be implemented" in
+let pipe fs = failwith "to be implemented"  
+(*
+  let f a x = (fun z -> (x a))  in
+  let base = (fun y -> y)  in  
     List.fold_left f base fs
-
+*)
 let rec sepConcat sep sl = match sl with 
   | [] -> ""
   | h :: t -> 
-      let f a x = failwith "to be implemented" in
-      let base = failwith "to be implemented" in
-      let l = failwith "to be implemented" in
+      let f a x = a^x in
+      let base = h in
+      let l = List.map (fun x -> sep ^ x) t in
         List.fold_left f base l
 
 let stringOfList f l = failwith "to be implemented"
