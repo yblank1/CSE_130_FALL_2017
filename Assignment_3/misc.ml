@@ -88,16 +88,19 @@ let rec removeZero l = match l with
 (* TODO remove List.hd - this is not allowed *)
 let bigAdd l1 l2 = 
   let add (l1, l2) = 
-    let f a x = let (a1, a2) = a in 
-	let (x1, x2) = x in 
-	((x1 + x2 + a1) /10, ((x1 + x2 + a1) mod 10) :: a2) in   
+    let f a x = let (carry, currRes) = a in 
+	let (comb1, comb2) = x in 
+	let sum = (comb1 + comb2 + carry) in
+	(sum / 10, (sum mod 10) :: currRes) in 	
     let base = (0, []) in
-    let args = (l1, l2) in
+    let args =  List.rev (List.append [(0, 0)] (List.combine l1 l2)) in
     let (_, res) = List.fold_left f base args in
       res
   in 
     removeZero (add (padZero l1 l2))
 ;;
+
+
 let rec mulByDigit i l = failwith "to be implemented"
 
 let bigMul l1 l2 = 
