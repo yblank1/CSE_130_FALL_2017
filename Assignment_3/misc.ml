@@ -139,11 +139,12 @@ let rec mulByDigit i l =
 (* 
 Multiplies two lists representing integers by eachother
 *)
-let bigMul l1 l2 = 
-  let f a x = let (buf, curr) = a in 
+let bigMul l1 l2 =  
+  let f a x = let (buf, curr) = a in
+  let magnitude = clone 0 buf in  
   let newCumul = mulByDigit x l1 in 
-  (0, bigAdd curr newCumul) in
-  let base = (0, l1) in
+  (buf + 1, bigAdd curr (List.rev (List.append magnitude (List.rev newCumul)))) in
+  let base = (0, [0]) in
   let args = List.rev l2 in
   let (_, res) = List.fold_left f base args in
     res;;
