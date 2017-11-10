@@ -29,6 +29,9 @@ rule token = parse
   | "!="         { NE }
   | "&&"         { AND } 
   | "||"         { OR }  
+  | "("          { LPAREN }
+  | ")"          { RPAREN }
+ 
 
   | digit+ as i                   { Num (int_of_string i) }
   (* Note: The order of these rules matter, so keep Id after all other lexemes *)
