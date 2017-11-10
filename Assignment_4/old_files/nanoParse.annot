@@ -1,0 +1,5473 @@
+<<<<<<< HEAD
+"nanoParse.ml" 22 210 218 "nanoParse.ml" 22 210 229
+=======
+"nanoParse.ml" 31 282 290 "nanoParse.ml" 31 282 301
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string -> unit
+)
+ident(
+  ext_ref Parsing.parse_error
+)
+<<<<<<< HEAD
+"nanoParse.mly" 6 384 392 "nanoParse.mly" 6 384 404
+=======
+"nanoParse.mly" 6 456 464 "nanoParse.mly" 6 456 476
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Nano.expr -> Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def consAtTheEnd "nanoParse.mly" 6 384 384 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.mly" 6 384 405 "nanoParse.mly" 6 384 406
+=======
+  def consAtTheEnd "nanoParse.mly" 6 456 456 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.mly" 6 456 477 "nanoParse.mly" 6 456 478
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def l "nanoParse.mly" 6 384 407 "nanoParse.mly" 8 468 520
+)
+"nanoParse.mly" 6 384 407 "nanoParse.mly" 6 384 408
+=======
+  def l "nanoParse.mly" 6 456 479 "nanoParse.mly" 8 540 592
+)
+"nanoParse.mly" 6 456 479 "nanoParse.mly" 6 456 480
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def e "nanoParse.mly" 6 384 411 "nanoParse.mly" 8 468 520
+)
+"nanoParse.mly" 6 384 417 "nanoParse.mly" 6 384 418
+=======
+  def e "nanoParse.mly" 6 456 483 "nanoParse.mly" 8 540 592
+)
+"nanoParse.mly" 6 456 489 "nanoParse.mly" 6 456 490
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref l "nanoParse.mly" 6 384 405 "nanoParse.mly" 6 384 406
+)
+"nanoParse.mly" 7 424 428 "nanoParse.mly" 7 424 435
+type(
+  Nano.expr
+)
+"nanoParse.mly" 7 424 450 "nanoParse.mly" 7 424 451
+=======
+  int_ref l "nanoParse.mly" 6 456 477 "nanoParse.mly" 6 456 478
+)
+"nanoParse.mly" 7 496 500 "nanoParse.mly" 7 496 507
+type(
+  Nano.expr
+)
+"nanoParse.mly" 7 496 522 "nanoParse.mly" 7 496 523
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref e "nanoParse.mly" 6 384 407 "nanoParse.mly" 6 384 408
+)
+"nanoParse.mly" 7 424 453 "nanoParse.mly" 7 424 457
+type(
+  Nano.binop
+)
+"nanoParse.mly" 7 424 459 "nanoParse.mly" 7 424 466
+type(
+  Nano.expr
+)
+"nanoParse.mly" 7 424 445 "nanoParse.mly" 7 424 467
+type(
+  Nano.expr
+)
+"nanoParse.mly" 8 468 476 "nanoParse.mly" 8 468 477
+=======
+  int_ref e "nanoParse.mly" 6 456 479 "nanoParse.mly" 6 456 480
+)
+"nanoParse.mly" 7 496 525 "nanoParse.mly" 7 496 529
+type(
+  Nano.binop
+)
+"nanoParse.mly" 7 496 531 "nanoParse.mly" 7 496 538
+type(
+  Nano.expr
+)
+"nanoParse.mly" 7 496 517 "nanoParse.mly" 7 496 539
+type(
+  Nano.expr
+)
+"nanoParse.mly" 8 540 548 "nanoParse.mly" 8 540 549
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def h "nanoParse.mly" 8 468 489 "nanoParse.mly" 8 468 520
+)
+"nanoParse.mly" 8 468 479 "nanoParse.mly" 8 468 481
+=======
+  def h "nanoParse.mly" 8 540 561 "nanoParse.mly" 8 540 592
+)
+"nanoParse.mly" 8 540 551 "nanoParse.mly" 8 540 553
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.binop
+)
+ident(
+<<<<<<< HEAD
+  def op "nanoParse.mly" 8 468 489 "nanoParse.mly" 8 468 520
+)
+"nanoParse.mly" 8 468 483 "nanoParse.mly" 8 468 484
+=======
+  def op "nanoParse.mly" 8 540 561 "nanoParse.mly" 8 540 592
+)
+"nanoParse.mly" 8 540 555 "nanoParse.mly" 8 540 556
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def t "nanoParse.mly" 8 468 489 "nanoParse.mly" 8 468 520
+)
+"nanoParse.mly" 8 468 472 "nanoParse.mly" 8 468 485
+type(
+  Nano.expr
+)
+"nanoParse.mly" 8 468 494 "nanoParse.mly" 8 468 495
+=======
+  def t "nanoParse.mly" 8 540 561 "nanoParse.mly" 8 540 592
+)
+"nanoParse.mly" 8 540 544 "nanoParse.mly" 8 540 557
+type(
+  Nano.expr
+)
+"nanoParse.mly" 8 540 566 "nanoParse.mly" 8 540 567
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref h "nanoParse.mly" 8 468 476 "nanoParse.mly" 8 468 477
+)
+"nanoParse.mly" 8 468 497 "nanoParse.mly" 8 468 499
+=======
+  int_ref h "nanoParse.mly" 8 540 548 "nanoParse.mly" 8 540 549
+)
+"nanoParse.mly" 8 540 569 "nanoParse.mly" 8 540 571
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.binop
+)
+ident(
+<<<<<<< HEAD
+  int_ref op "nanoParse.mly" 8 468 479 "nanoParse.mly" 8 468 481
+)
+"nanoParse.mly" 8 468 503 "nanoParse.mly" 8 468 515
+=======
+  int_ref op "nanoParse.mly" 8 540 551 "nanoParse.mly" 8 540 553
+)
+"nanoParse.mly" 8 540 575 "nanoParse.mly" 8 540 587
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Nano.expr -> Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref consAtTheEnd "nanoParse.mly" 6 384 392 "nanoParse.mly" 6 384 404
+)
+"nanoParse.mly" 8 468 516 "nanoParse.mly" 8 468 517
+=======
+  int_ref consAtTheEnd "nanoParse.mly" 6 456 464 "nanoParse.mly" 6 456 476
+)
+"nanoParse.mly" 8 540 588 "nanoParse.mly" 8 540 589
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref t "nanoParse.mly" 8 468 483 "nanoParse.mly" 8 468 484
+)
+"nanoParse.mly" 8 468 518 "nanoParse.mly" 8 468 519
+=======
+  int_ref t "nanoParse.mly" 8 540 555 "nanoParse.mly" 8 540 556
+)
+"nanoParse.mly" 8 540 590 "nanoParse.mly" 8 540 591
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref e "nanoParse.mly" 6 384 407 "nanoParse.mly" 6 384 408
+=======
+  int_ref e "nanoParse.mly" 6 456 479 "nanoParse.mly" 6 456 480
+)
+"nanoParse.mly" 8 540 575 "nanoParse.mly" 8 540 591
+call(
+  stack
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+)
+"nanoParse.mly" 8 468 503 "nanoParse.mly" 8 468 519
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 8 468 489 "nanoParse.mly" 8 468 520
+type(
+  Nano.expr
+)
+"nanoParse.mly" 6 384 411 "nanoParse.mly" 8 468 520
+type(
+  Nano.expr
+)
+"nanoParse.ml" 31 541 545 "nanoParse.ml" 31 541 559
+=======
+"nanoParse.mly" 8 540 561 "nanoParse.mly" 8 540 592
+type(
+  Nano.expr
+)
+"nanoParse.mly" 6 456 483 "nanoParse.mly" 8 540 592
+type(
+  Nano.expr
+)
+"nanoParse.ml" 41 613 617 "nanoParse.ml" 41 613 631
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int array
+)
+ident(
+<<<<<<< HEAD
+  def yytransl_const "nanoParse.ml" 49 844 844 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 32 565 569 "nanoParse.ml" 32 565 570
+type(
+  int
+)
+"nanoParse.ml" 33 582 584 "nanoParse.ml" 33 582 587
+type(
+  int
+)
+"nanoParse.ml" 34 599 601 "nanoParse.ml" 34 599 604
+type(
+  int
+)
+"nanoParse.ml" 35 615 617 "nanoParse.ml" 35 615 620
+type(
+  int
+)
+"nanoParse.ml" 36 631 633 "nanoParse.ml" 36 631 636
+type(
+  int
+)
+"nanoParse.ml" 37 648 650 "nanoParse.ml" 37 648 653
+type(
+  int
+)
+"nanoParse.ml" 38 666 668 "nanoParse.ml" 38 666 671
+type(
+  int
+)
+"nanoParse.ml" 39 683 685 "nanoParse.ml" 39 683 688
+type(
+  int
+)
+"nanoParse.ml" 40 700 702 "nanoParse.ml" 40 700 705
+type(
+  int
+)
+"nanoParse.ml" 41 716 718 "nanoParse.ml" 41 716 721
+type(
+  int
+)
+"nanoParse.ml" 42 736 738 "nanoParse.ml" 42 736 741
+type(
+  int
+)
+"nanoParse.ml" 43 756 758 "nanoParse.ml" 43 756 761
+type(
+  int
+)
+"nanoParse.ml" 44 774 776 "nanoParse.ml" 44 774 779
+type(
+  int
+)
+"nanoParse.ml" 45 798 800 "nanoParse.ml" 45 798 803
+type(
+  int
+)
+"nanoParse.ml" 46 816 818 "nanoParse.ml" 46 816 821
+type(
+  int
+)
+"nanoParse.ml" 47 835 839 "nanoParse.ml" 47 835 840
+type(
+  int
+)
+"nanoParse.ml" 31 541 562 "nanoParse.ml" 47 835 842
+type(
+  int array
+)
+"nanoParse.ml" 49 844 848 "nanoParse.ml" 49 844 862
+=======
+  def yytransl_const "nanoParse.ml" 69 1088 1088 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 42 637 641 "nanoParse.ml" 42 637 642
+type(
+  int
+)
+"nanoParse.ml" 43 654 656 "nanoParse.ml" 43 654 659
+type(
+  int
+)
+"nanoParse.ml" 44 671 673 "nanoParse.ml" 44 671 676
+type(
+  int
+)
+"nanoParse.ml" 45 687 689 "nanoParse.ml" 45 687 692
+type(
+  int
+)
+"nanoParse.ml" 46 703 705 "nanoParse.ml" 46 703 708
+type(
+  int
+)
+"nanoParse.ml" 47 720 722 "nanoParse.ml" 47 720 725
+type(
+  int
+)
+"nanoParse.ml" 48 738 740 "nanoParse.ml" 48 738 743
+type(
+  int
+)
+"nanoParse.ml" 49 755 757 "nanoParse.ml" 49 755 760
+type(
+  int
+)
+"nanoParse.ml" 50 772 774 "nanoParse.ml" 50 772 777
+type(
+  int
+)
+"nanoParse.ml" 51 788 790 "nanoParse.ml" 51 788 793
+type(
+  int
+)
+"nanoParse.ml" 52 808 810 "nanoParse.ml" 52 808 813
+type(
+  int
+)
+"nanoParse.ml" 53 828 830 "nanoParse.ml" 53 828 833
+type(
+  int
+)
+"nanoParse.ml" 54 846 848 "nanoParse.ml" 54 846 851
+type(
+  int
+)
+"nanoParse.ml" 55 870 872 "nanoParse.ml" 55 870 875
+type(
+  int
+)
+"nanoParse.ml" 56 888 890 "nanoParse.ml" 56 888 893
+type(
+  int
+)
+"nanoParse.ml" 57 907 909 "nanoParse.ml" 57 907 912
+type(
+  int
+)
+"nanoParse.ml" 58 926 928 "nanoParse.ml" 58 926 931
+type(
+  int
+)
+"nanoParse.ml" 59 943 945 "nanoParse.ml" 59 943 948
+type(
+  int
+)
+"nanoParse.ml" 60 959 961 "nanoParse.ml" 60 959 964
+type(
+  int
+)
+"nanoParse.ml" 61 975 977 "nanoParse.ml" 61 975 980
+type(
+  int
+)
+"nanoParse.ml" 62 991 993 "nanoParse.ml" 62 991 996
+type(
+  int
+)
+"nanoParse.ml" 63 1008 1010 "nanoParse.ml" 63 1008 1013
+type(
+  int
+)
+"nanoParse.ml" 64 1027 1029 "nanoParse.ml" 64 1027 1032
+type(
+  int
+)
+"nanoParse.ml" 65 1043 1045 "nanoParse.ml" 65 1043 1048
+type(
+  int
+)
+"nanoParse.ml" 66 1061 1063 "nanoParse.ml" 66 1061 1066
+type(
+  int
+)
+"nanoParse.ml" 67 1079 1083 "nanoParse.ml" 67 1079 1084
+type(
+  int
+)
+"nanoParse.ml" 41 613 634 "nanoParse.ml" 67 1079 1086
+type(
+  int array
+)
+"nanoParse.ml" 69 1088 1092 "nanoParse.ml" 69 1088 1106
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int array
+)
+ident(
+<<<<<<< HEAD
+  def yytransl_block "nanoParse.ml" 54 910 910 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 50 868 870 "nanoParse.ml" 50 868 873
+type(
+  int
+)
+"nanoParse.ml" 51 885 887 "nanoParse.ml" 51 885 890
+type(
+  int
+)
+"nanoParse.ml" 52 901 905 "nanoParse.ml" 52 901 906
+type(
+  int
+)
+"nanoParse.ml" 49 844 865 "nanoParse.ml" 52 901 908
+type(
+  int array
+)
+"nanoParse.ml" 54 910 914 "nanoParse.ml" 54 910 919
+=======
+  def yytransl_block "nanoParse.ml" 74 1154 1154 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 70 1112 1114 "nanoParse.ml" 70 1112 1117
+type(
+  int
+)
+"nanoParse.ml" 71 1129 1131 "nanoParse.ml" 71 1129 1134
+type(
+  int
+)
+"nanoParse.ml" 72 1145 1149 "nanoParse.ml" 72 1145 1150
+type(
+  int
+)
+"nanoParse.ml" 69 1088 1109 "nanoParse.ml" 72 1145 1152
+type(
+  int array
+)
+"nanoParse.ml" 74 1154 1158 "nanoParse.ml" 74 1154 1163
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yylhs "nanoParse.ml" 60 1142 1142 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 54 910 922 "nanoParse.ml" 58 1131 1140
+type(
+  string
+)
+"nanoParse.ml" 60 1142 1146 "nanoParse.ml" 60 1142 1151
+=======
+  def yylhs "nanoParse.ml" 80 1410 1410 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 74 1154 1166 "nanoParse.ml" 78 1375 1408
+type(
+  string
+)
+"nanoParse.ml" 80 1410 1414 "nanoParse.ml" 80 1410 1419
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yylen "nanoParse.ml" 66 1374 1374 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 60 1142 1154 "nanoParse.ml" 64 1363 1372
+type(
+  string
+)
+"nanoParse.ml" 66 1374 1378 "nanoParse.ml" 66 1374 1386
+=======
+  def yylen "nanoParse.ml" 86 1666 1666 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 80 1410 1422 "nanoParse.ml" 84 1631 1664
+type(
+  string
+)
+"nanoParse.ml" 86 1666 1670 "nanoParse.ml" 86 1666 1678
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yydefred "nanoParse.ml" 73 1715 1715 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 66 1374 1389 "nanoParse.ml" 71 1664 1713
+type(
+  string
+)
+"nanoParse.ml" 73 1715 1719 "nanoParse.ml" 73 1715 1726
+=======
+  def yydefred "nanoParse.ml" 95 2139 2139 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 86 1666 1681 "nanoParse.ml" 93 2088 2137
+type(
+  string
+)
+"nanoParse.ml" 95 2139 2143 "nanoParse.ml" 95 2139 2150
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yydgoto "nanoParse.ml" 77 1833 1833 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 73 1715 1729 "nanoParse.ml" 75 1806 1831
+type(
+  string
+)
+"nanoParse.ml" 77 1833 1837 "nanoParse.ml" 77 1833 1845
+=======
+  def yydgoto "nanoParse.ml" 99 2257 2257 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 95 2139 2153 "nanoParse.ml" 97 2230 2255
+type(
+  string
+)
+"nanoParse.ml" 99 2257 2261 "nanoParse.ml" 99 2257 2269
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yysindex "nanoParse.ml" 84 2174 2174 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 77 1833 1848 "nanoParse.ml" 82 2123 2172
+type(
+  string
+)
+"nanoParse.ml" 84 2174 2178 "nanoParse.ml" 84 2174 2186
+=======
+  def yysindex "nanoParse.ml" 108 2730 2730 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 99 2257 2272 "nanoParse.ml" 106 2679 2728
+type(
+  string
+)
+"nanoParse.ml" 108 2730 2734 "nanoParse.ml" 108 2730 2742
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yyrindex "nanoParse.ml" 91 2515 2515 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 84 2174 2189 "nanoParse.ml" 89 2464 2513
+type(
+  string
+)
+"nanoParse.ml" 91 2515 2519 "nanoParse.ml" 91 2515 2527
+=======
+  def yyrindex "nanoParse.ml" 117 3203 3203 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 108 2730 2745 "nanoParse.ml" 115 3152 3201
+type(
+  string
+)
+"nanoParse.ml" 117 3203 3207 "nanoParse.ml" 117 3203 3215
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yygindex "nanoParse.ml" 95 2634 2634 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 91 2515 2530 "nanoParse.ml" 93 2607 2632
+type(
+  string
+)
+"nanoParse.ml" 95 2634 2638 "nanoParse.ml" 95 2634 2649
+=======
+  def yygindex "nanoParse.ml" 121 3322 3322 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 117 3203 3218 "nanoParse.ml" 119 3295 3320
+type(
+  string
+)
+"nanoParse.ml" 121 3322 3326 "nanoParse.ml" 121 3322 3337
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int
+)
+ident(
+<<<<<<< HEAD
+  def yytablesize "nanoParse.ml" 96 2656 2656 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 95 2634 2652 "nanoParse.ml" 95 2634 2655
+type(
+  int
+)
+"nanoParse.ml" 96 2656 2660 "nanoParse.ml" 96 2656 2667
+=======
+  def yytablesize "nanoParse.ml" 122 3344 3344 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 121 3322 3340 "nanoParse.ml" 121 3322 3343
+type(
+  int
+)
+"nanoParse.ml" 122 3344 3348 "nanoParse.ml" 122 3344 3355
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yytable "nanoParse.ml" 139 5364 5364 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 96 2656 2670 "nanoParse.ml" 137 5321 5362
+type(
+  string
+)
+"nanoParse.ml" 139 5364 5368 "nanoParse.ml" 139 5364 5375
+=======
+  def yytable "nanoParse.ml" 173 6580 6580 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 122 3344 3358 "nanoParse.ml" 171 6537 6578
+type(
+  string
+)
+"nanoParse.ml" 173 6580 6584 "nanoParse.ml" 173 6580 6591
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yycheck "nanoParse.ml" 182 8072 8072 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 139 5364 5378 "nanoParse.ml" 180 8029 8070
+type(
+  string
+)
+"nanoParse.ml" 182 8072 8076 "nanoParse.ml" 182 8072 8089
+=======
+  def yycheck "nanoParse.ml" 224 9816 9816 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 173 6580 6594 "nanoParse.ml" 222 9773 9814
+type(
+  string
+)
+"nanoParse.ml" 224 9816 9820 "nanoParse.ml" 224 9816 9833
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yynames_const "nanoParse.ml" 200 8280 8280 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 182 8072 8092 "nanoParse.ml" 198 8275 8278
+type(
+  string
+)
+"nanoParse.ml" 200 8280 8284 "nanoParse.ml" 200 8280 8297
+=======
+  def yynames_const "nanoParse.ml" 252 10136 10136 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 224 9816 9836 "nanoParse.ml" 250 10131 10134
+type(
+  string
+)
+"nanoParse.ml" 252 10136 10140 "nanoParse.ml" 252 10136 10153
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def yynames_block "nanoParse.ml" 205 8329 8329 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 200 8280 8300 "nanoParse.ml" 203 8324 8327
+type(
+  string
+)
+"nanoParse.ml" 205 8329 8333 "nanoParse.ml" 205 8329 8338
+=======
+  def yynames_block "nanoParse.ml" 257 10185 10185 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 252 10136 10156 "nanoParse.ml" 255 10180 10183
+type(
+  string
+)
+"nanoParse.ml" 257 10185 10189 "nanoParse.ml" 257 10185 10194
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+<<<<<<< HEAD
+  def yyact "nanoParse.ml" 386 14405 14405 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 206 8344 8351 "nanoParse.ml" 206 8344 8352
+type(
+  Parsing.parser_env
+)
+"nanoParse.ml" 206 8344 8356 "nanoParse.ml" 206 8344 8364
+=======
+  def yyact "nanoParse.ml" 464 17296 17296 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 258 10200 10207 "nanoParse.ml" 258 10200 10208
+type(
+  Parsing.parser_env
+)
+"nanoParse.ml" 258 10200 10212 "nanoParse.ml" 258 10200 10220
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string -> Obj.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+<<<<<<< HEAD
+"nanoParse.ml" 206 8344 8365 "nanoParse.ml" 206 8344 8373
+type(
+  string
+)
+"nanoParse.ml" 206 8344 8356 "nanoParse.ml" 206 8344 8373
+type(
+  Obj.t
+)
+"nanoParse.ml" 206 8344 8346 "nanoParse.ml" 206 8344 8374
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 207 8375 8382 "nanoParse.ml" 207 8375 8399
+=======
+"nanoParse.ml" 258 10200 10221 "nanoParse.ml" 258 10200 10229
+type(
+  string
+)
+"nanoParse.ml" 258 10200 10212 "nanoParse.ml" 258 10200 10229
+call(
+  tail
+)
+type(
+  Obj.t
+)
+"nanoParse.ml" 258 10200 10202 "nanoParse.ml" 258 10200 10230
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 259 10231 10238 "nanoParse.ml" 259 10231 10255
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "nanoParse.ml" 260 10259 10263 "nanoParse.ml" 265 10424 10451
+)
+"nanoParse.ml" 260 10259 10267 "nanoParse.ml" 260 10259 10269
+type(
+  Nano.expr
+)
+ident(
+  def _1 "nanoParse.ml" 261 10322 10326 "nanoParse.ml" 265 10424 10451
+)
+"nanoParse.ml" 260 10259 10273 "nanoParse.ml" 260 10259 10289
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 260 10259 10290 "nanoParse.ml" 260 10259 10307
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 259 10231 10238 "nanoParse.ml" 259 10231 10255
+)
+"nanoParse.ml" 260 10259 10308 "nanoParse.ml" 260 10259 10309
+type(
+  int
+)
+"nanoParse.ml" 260 10259 10273 "nanoParse.ml" 260 10259 10309
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 261 10322 10326 "nanoParse.ml" 261 10322 10334
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"nanoParse.mly" 28 10357 10396 "nanoParse.mly" 28 10357 10402
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+  int_ref _1 "nanoParse.ml" 260 10259 10267 "nanoParse.ml" 260 10259 10269
+)
+"nanoParse.ml" 261 10322 10326 "nanoParse.ml" 265 10424 10451
+type(
+  Obj.t
+)
+"nanoParse.ml" 260 10259 10263 "nanoParse.ml" 265 10424 10451
+type(
+  Obj.t
+)
+"nanoParse.ml" 259 10231 10233 "nanoParse.ml" 265 10424 10452
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 266 10453 10460 "nanoParse.ml" 266 10453 10477
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "nanoParse.ml" 267 10481 10485 "nanoParse.ml" 274 10792 10815
+)
+"nanoParse.ml" 267 10481 10489 "nanoParse.ml" 267 10481 10491
+type(
+  string
+)
+ident(
+  def _2 "nanoParse.ml" 268 10545 10549 "nanoParse.ml" 274 10792 10815
+)
+"nanoParse.ml" 267 10481 10495 "nanoParse.ml" 267 10481 10511
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 267 10481 10512 "nanoParse.ml" 267 10481 10529
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 208 8403 8407 "nanoParse.ml" 213 8568 8595
+)
+"nanoParse.ml" 208 8403 8411 "nanoParse.ml" 208 8403 8413
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 266 10453 10460 "nanoParse.ml" 266 10453 10477
+)
+"nanoParse.ml" 267 10481 10530 "nanoParse.ml" 267 10481 10531
+type(
+  int
+)
+"nanoParse.ml" 267 10481 10495 "nanoParse.ml" 267 10481 10531
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"nanoParse.ml" 268 10545 10553 "nanoParse.ml" 268 10545 10555
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 209 8466 8470 "nanoParse.ml" 213 8568 8595
+)
+"nanoParse.ml" 208 8403 8417 "nanoParse.ml" 208 8403 8433
+=======
+  def _4 "nanoParse.ml" 269 10612 10616 "nanoParse.ml" 274 10792 10815
+)
+"nanoParse.ml" 268 10545 10559 "nanoParse.ml" 268 10545 10575
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 208 8403 8434 "nanoParse.ml" 208 8403 8451
+=======
+"nanoParse.ml" 268 10545 10576 "nanoParse.ml" 268 10545 10593
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 207 8375 8382 "nanoParse.ml" 207 8375 8399
+)
+"nanoParse.ml" 208 8403 8452 "nanoParse.ml" 208 8403 8453
+type(
+  int
+)
+"nanoParse.ml" 208 8403 8417 "nanoParse.ml" 208 8403 8453
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 266 10453 10460 "nanoParse.ml" 266 10453 10477
+)
+"nanoParse.ml" 268 10545 10594 "nanoParse.ml" 268 10545 10595
+type(
+  int
+)
+"nanoParse.ml" 268 10545 10559 "nanoParse.ml" 268 10545 10595
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 209 8466 8470 "nanoParse.ml" 209 8466 8478
+=======
+"nanoParse.ml" 269 10612 10620 "nanoParse.ml" 269 10612 10622
+type(
+  Nano.expr
+)
+ident(
+  def _6 "nanoParse.ml" 270 10679 10683 "nanoParse.ml" 274 10792 10815
+)
+"nanoParse.ml" 269 10612 10626 "nanoParse.ml" 269 10612 10642
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 269 10612 10643 "nanoParse.ml" 269 10612 10660
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 266 10453 10460 "nanoParse.ml" 266 10453 10477
+)
+"nanoParse.ml" 269 10612 10661 "nanoParse.ml" 269 10612 10662
+type(
+  int
+)
+"nanoParse.ml" 269 10612 10626 "nanoParse.ml" 269 10612 10662
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 270 10679 10683 "nanoParse.ml" 270 10679 10691
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 27 8501 8540 "nanoParse.mly" 27 8501 8546
+=======
+"nanoParse.mly" 30 10714 10759 "nanoParse.mly" 30 10714 10761
+type(
+  string
+)
+ident(
+  int_ref _2 "nanoParse.ml" 267 10481 10489 "nanoParse.ml" 267 10481 10491
+)
+"nanoParse.mly" 30 10714 10762 "nanoParse.mly" 30 10714 10764
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+  int_ref _4 "nanoParse.ml" 268 10545 10553 "nanoParse.ml" 268 10545 10555
+)
+"nanoParse.mly" 30 10714 10765 "nanoParse.mly" 30 10714 10767
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 208 8403 8411 "nanoParse.ml" 208 8403 8413
+)
+"nanoParse.ml" 209 8466 8470 "nanoParse.ml" 213 8568 8595
+type(
+  Obj.t
+)
+"nanoParse.ml" 208 8403 8407 "nanoParse.ml" 213 8568 8595
+type(
+  Obj.t
+)
+"nanoParse.ml" 207 8375 8377 "nanoParse.ml" 213 8568 8596
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 214 8597 8604 "nanoParse.ml" 214 8597 8621
+=======
+  int_ref _6 "nanoParse.ml" 269 10612 10620 "nanoParse.ml" 269 10612 10622
+)
+"nanoParse.mly" 30 10714 10753 "nanoParse.mly" 30 10714 10770
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 270 10679 10683 "nanoParse.ml" 274 10792 10815
+type(
+  Obj.t
+)
+"nanoParse.ml" 269 10612 10616 "nanoParse.ml" 274 10792 10815
+type(
+  Obj.t
+)
+"nanoParse.ml" 268 10545 10549 "nanoParse.ml" 274 10792 10815
+type(
+  Obj.t
+)
+"nanoParse.ml" 267 10481 10485 "nanoParse.ml" 274 10792 10815
+type(
+  Obj.t
+)
+"nanoParse.ml" 266 10453 10455 "nanoParse.ml" 274 10792 10816
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 275 10817 10824 "nanoParse.ml" 275 10817 10841
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 215 8625 8629 "nanoParse.ml" 222 8936 8959
+)
+"nanoParse.ml" 215 8625 8633 "nanoParse.ml" 215 8625 8635
+=======
+  def __caml_parser_env "nanoParse.ml" 276 10845 10849 "nanoParse.ml" 283 11162 11185
+)
+"nanoParse.ml" 276 10845 10853 "nanoParse.ml" 276 10845 10855
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def _2 "nanoParse.ml" 216 8689 8693 "nanoParse.ml" 222 8936 8959
+)
+"nanoParse.ml" 215 8625 8639 "nanoParse.ml" 215 8625 8655
+=======
+  def _3 "nanoParse.ml" 277 10909 10913 "nanoParse.ml" 283 11162 11185
+)
+"nanoParse.ml" 276 10845 10859 "nanoParse.ml" 276 10845 10875
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 215 8625 8656 "nanoParse.ml" 215 8625 8673
+=======
+"nanoParse.ml" 276 10845 10876 "nanoParse.ml" 276 10845 10893
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 214 8597 8604 "nanoParse.ml" 214 8597 8621
+)
+"nanoParse.ml" 215 8625 8674 "nanoParse.ml" 215 8625 8675
+type(
+  int
+)
+"nanoParse.ml" 215 8625 8639 "nanoParse.ml" 215 8625 8675
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 275 10817 10824 "nanoParse.ml" 275 10817 10841
+)
+"nanoParse.ml" 276 10845 10894 "nanoParse.ml" 276 10845 10895
+type(
+  int
+)
+"nanoParse.ml" 276 10845 10859 "nanoParse.ml" 276 10845 10895
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+type(
+  string
+)
+<<<<<<< HEAD
+"nanoParse.ml" 216 8689 8697 "nanoParse.ml" 216 8689 8699
+=======
+"nanoParse.ml" 277 10909 10917 "nanoParse.ml" 277 10909 10919
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _4 "nanoParse.ml" 217 8756 8760 "nanoParse.ml" 222 8936 8959
+)
+"nanoParse.ml" 216 8689 8703 "nanoParse.ml" 216 8689 8719
+=======
+  def _5 "nanoParse.ml" 278 10976 10980 "nanoParse.ml" 283 11162 11185
+)
+"nanoParse.ml" 277 10909 10923 "nanoParse.ml" 277 10909 10939
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 216 8689 8720 "nanoParse.ml" 216 8689 8737
+=======
+"nanoParse.ml" 277 10909 10940 "nanoParse.ml" 277 10909 10957
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 214 8597 8604 "nanoParse.ml" 214 8597 8621
+)
+"nanoParse.ml" 216 8689 8738 "nanoParse.ml" 216 8689 8739
+type(
+  int
+)
+"nanoParse.ml" 216 8689 8703 "nanoParse.ml" 216 8689 8739
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 275 10817 10824 "nanoParse.ml" 275 10817 10841
+)
+"nanoParse.ml" 277 10909 10958 "nanoParse.ml" 277 10909 10959
+type(
+  int
+)
+"nanoParse.ml" 277 10909 10923 "nanoParse.ml" 277 10909 10959
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 217 8756 8764 "nanoParse.ml" 217 8756 8766
+=======
+"nanoParse.ml" 278 10976 10984 "nanoParse.ml" 278 10976 10986
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _6 "nanoParse.ml" 218 8823 8827 "nanoParse.ml" 222 8936 8959
+)
+"nanoParse.ml" 217 8756 8770 "nanoParse.ml" 217 8756 8786
+=======
+  def _7 "nanoParse.ml" 279 11043 11047 "nanoParse.ml" 283 11162 11185
+)
+"nanoParse.ml" 278 10976 10990 "nanoParse.ml" 278 10976 11006
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 217 8756 8787 "nanoParse.ml" 217 8756 8804
+=======
+"nanoParse.ml" 278 10976 11007 "nanoParse.ml" 278 10976 11024
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 214 8597 8604 "nanoParse.ml" 214 8597 8621
+)
+"nanoParse.ml" 217 8756 8805 "nanoParse.ml" 217 8756 8806
+type(
+  int
+)
+"nanoParse.ml" 217 8756 8770 "nanoParse.ml" 217 8756 8806
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 275 10817 10824 "nanoParse.ml" 275 10817 10841
+)
+"nanoParse.ml" 278 10976 11025 "nanoParse.ml" 278 10976 11026
+type(
+  int
+)
+"nanoParse.ml" 278 10976 10990 "nanoParse.ml" 278 10976 11026
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 218 8823 8827 "nanoParse.ml" 218 8823 8835
+=======
+"nanoParse.ml" 279 11043 11047 "nanoParse.ml" 279 11043 11055
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 29 8858 8903 "nanoParse.mly" 29 8858 8905
+=======
+"nanoParse.mly" 32 11078 11127 "nanoParse.mly" 32 11078 11129
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref _2 "nanoParse.ml" 215 8625 8633 "nanoParse.ml" 215 8625 8635
+)
+"nanoParse.mly" 29 8858 8906 "nanoParse.mly" 29 8858 8908
+=======
+  int_ref _3 "nanoParse.ml" 276 10845 10853 "nanoParse.ml" 276 10845 10855
+)
+"nanoParse.mly" 32 11078 11131 "nanoParse.mly" 32 11078 11133
+type(
+  Nano.expr
+)
+ident(
+  int_ref _5 "nanoParse.ml" 277 10909 10917 "nanoParse.ml" 277 10909 10919
+)
+"nanoParse.mly" 32 11078 11135 "nanoParse.mly" 32 11078 11137
+type(
+  Nano.expr
+)
+ident(
+  int_ref _7 "nanoParse.ml" 278 10976 10984 "nanoParse.ml" 278 10976 10986
+)
+"nanoParse.mly" 32 11078 11117 "nanoParse.mly" 32 11078 11140
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 279 11043 11047 "nanoParse.ml" 283 11162 11185
+type(
+  Obj.t
+)
+"nanoParse.ml" 278 10976 10980 "nanoParse.ml" 283 11162 11185
+type(
+  Obj.t
+)
+"nanoParse.ml" 277 10909 10913 "nanoParse.ml" 283 11162 11185
+type(
+  Obj.t
+)
+"nanoParse.ml" 276 10845 10849 "nanoParse.ml" 283 11162 11185
+type(
+  Obj.t
+)
+"nanoParse.ml" 275 10817 10819 "nanoParse.ml" 283 11162 11186
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 284 11187 11194 "nanoParse.ml" 284 11187 11211
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "nanoParse.ml" 285 11215 11219 "nanoParse.ml" 291 11458 11481
+)
+"nanoParse.ml" 285 11215 11223 "nanoParse.ml" 285 11215 11225
+type(
+  string
+)
+ident(
+  def _2 "nanoParse.ml" 286 11279 11283 "nanoParse.ml" 291 11458 11481
+)
+"nanoParse.ml" 285 11215 11229 "nanoParse.ml" 285 11215 11245
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 285 11215 11246 "nanoParse.ml" 285 11215 11263
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 284 11187 11194 "nanoParse.ml" 284 11187 11211
+)
+"nanoParse.ml" 285 11215 11264 "nanoParse.ml" 285 11215 11265
+type(
+  int
+)
+"nanoParse.ml" 285 11215 11229 "nanoParse.ml" 285 11215 11265
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"nanoParse.ml" 286 11279 11287 "nanoParse.ml" 286 11279 11289
+type(
+  Nano.expr
+)
+ident(
+  def _4 "nanoParse.ml" 287 11346 11350 "nanoParse.ml" 291 11458 11481
+)
+"nanoParse.ml" 286 11279 11293 "nanoParse.ml" 286 11279 11309
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 286 11279 11310 "nanoParse.ml" 286 11279 11327
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 284 11187 11194 "nanoParse.ml" 284 11187 11211
+)
+"nanoParse.ml" 286 11279 11328 "nanoParse.ml" 286 11279 11329
+type(
+  int
+)
+"nanoParse.ml" 286 11279 11293 "nanoParse.ml" 286 11279 11329
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 287 11346 11350 "nanoParse.ml" 287 11346 11358
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"nanoParse.mly" 33 11381 11427 "nanoParse.mly" 33 11381 11429
+type(
+  string
+)
+ident(
+  int_ref _2 "nanoParse.ml" 285 11215 11223 "nanoParse.ml" 285 11215 11225
+)
+"nanoParse.mly" 33 11381 11431 "nanoParse.mly" 33 11381 11433
+type(
+  Nano.expr
+)
+ident(
+  int_ref _4 "nanoParse.ml" 286 11279 11287 "nanoParse.ml" 286 11279 11289
+)
+"nanoParse.mly" 33 11381 11420 "nanoParse.mly" 33 11381 11436
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 287 11346 11350 "nanoParse.ml" 291 11458 11481
+type(
+  Obj.t
+)
+"nanoParse.ml" 286 11279 11283 "nanoParse.ml" 291 11458 11481
+type(
+  Obj.t
+)
+"nanoParse.ml" 285 11215 11219 "nanoParse.ml" 291 11458 11481
+type(
+  Obj.t
+)
+"nanoParse.ml" 284 11187 11189 "nanoParse.ml" 291 11458 11482
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 292 11483 11490 "nanoParse.ml" 292 11483 11507
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "nanoParse.ml" 293 11511 11515 "nanoParse.ml" 300 11827 11850
+)
+"nanoParse.ml" 293 11511 11519 "nanoParse.ml" 293 11511 11521
+type(
+  Nano.expr
+)
+ident(
+  def _2 "nanoParse.ml" 294 11578 11582 "nanoParse.ml" 300 11827 11850
+)
+"nanoParse.ml" 293 11511 11525 "nanoParse.ml" 293 11511 11541
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 293 11511 11542 "nanoParse.ml" 293 11511 11559
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 292 11483 11490 "nanoParse.ml" 292 11483 11507
+)
+"nanoParse.ml" 293 11511 11560 "nanoParse.ml" 293 11511 11561
+type(
+  int
+)
+"nanoParse.ml" 293 11511 11525 "nanoParse.ml" 293 11511 11561
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 294 11578 11586 "nanoParse.ml" 294 11578 11588
+type(
+  Nano.expr
+)
+ident(
+  def _4 "nanoParse.ml" 295 11645 11649 "nanoParse.ml" 300 11827 11850
+)
+"nanoParse.ml" 294 11578 11592 "nanoParse.ml" 294 11578 11608
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 294 11578 11609 "nanoParse.ml" 294 11578 11626
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 292 11483 11490 "nanoParse.ml" 292 11483 11507
+)
+"nanoParse.ml" 294 11578 11627 "nanoParse.ml" 294 11578 11628
+type(
+  int
+)
+"nanoParse.ml" 294 11578 11592 "nanoParse.ml" 294 11578 11628
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 295 11645 11653 "nanoParse.ml" 295 11645 11655
+type(
+  Nano.expr
+)
+ident(
+  def _6 "nanoParse.ml" 296 11712 11716 "nanoParse.ml" 300 11827 11850
+)
+"nanoParse.ml" 295 11645 11659 "nanoParse.ml" 295 11645 11675
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"nanoParse.ml" 295 11645 11676 "nanoParse.ml" 295 11645 11693
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "nanoParse.ml" 292 11483 11490 "nanoParse.ml" 292 11483 11507
+)
+"nanoParse.ml" 295 11645 11694 "nanoParse.ml" 295 11645 11695
+type(
+  int
+)
+"nanoParse.ml" 295 11645 11659 "nanoParse.ml" 295 11645 11695
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+"nanoParse.ml" 296 11712 11716 "nanoParse.ml" 296 11712 11724
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"nanoParse.mly" 34 11747 11792 "nanoParse.mly" 34 11747 11794
+type(
+  Nano.expr
+)
+ident(
+  int_ref _2 "nanoParse.ml" 293 11511 11519 "nanoParse.ml" 293 11511 11521
+)
+"nanoParse.mly" 34 11747 11796 "nanoParse.mly" 34 11747 11798
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _4 "nanoParse.ml" 216 8689 8697 "nanoParse.ml" 216 8689 8699
+)
+"nanoParse.mly" 29 8858 8909 "nanoParse.mly" 29 8858 8911
+=======
+  int_ref _4 "nanoParse.ml" 294 11578 11586 "nanoParse.ml" 294 11578 11588
+)
+"nanoParse.mly" 34 11747 11800 "nanoParse.mly" 34 11747 11802
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _6 "nanoParse.ml" 217 8756 8764 "nanoParse.ml" 217 8756 8766
+)
+"nanoParse.mly" 29 8858 8897 "nanoParse.mly" 29 8858 8914
+=======
+  int_ref _6 "nanoParse.ml" 295 11645 11653 "nanoParse.ml" 295 11645 11655
+)
+"nanoParse.mly" 34 11747 11786 "nanoParse.mly" 34 11747 11805
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 218 8823 8827 "nanoParse.ml" 222 8936 8959
+type(
+  Obj.t
+)
+"nanoParse.ml" 217 8756 8760 "nanoParse.ml" 222 8936 8959
+type(
+  Obj.t
+)
+"nanoParse.ml" 216 8689 8693 "nanoParse.ml" 222 8936 8959
+type(
+  Obj.t
+)
+"nanoParse.ml" 215 8625 8629 "nanoParse.ml" 222 8936 8959
+type(
+  Obj.t
+)
+"nanoParse.ml" 214 8597 8599 "nanoParse.ml" 222 8936 8960
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 223 8961 8968 "nanoParse.ml" 223 8961 8985
+=======
+"nanoParse.ml" 296 11712 11716 "nanoParse.ml" 300 11827 11850
+type(
+  Obj.t
+)
+"nanoParse.ml" 295 11645 11649 "nanoParse.ml" 300 11827 11850
+type(
+  Obj.t
+)
+"nanoParse.ml" 294 11578 11582 "nanoParse.ml" 300 11827 11850
+type(
+  Obj.t
+)
+"nanoParse.ml" 293 11511 11515 "nanoParse.ml" 300 11827 11850
+type(
+  Obj.t
+)
+"nanoParse.ml" 292 11483 11485 "nanoParse.ml" 300 11827 11851
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 301 11852 11859 "nanoParse.ml" 301 11852 11876
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 224 8989 8993 "nanoParse.ml" 229 9154 9177
+)
+"nanoParse.ml" 224 8989 8997 "nanoParse.ml" 224 8989 8999
+=======
+  def __caml_parser_env "nanoParse.ml" 302 11880 11884 "nanoParse.ml" 307 12045 12068
+)
+"nanoParse.ml" 302 11880 11888 "nanoParse.ml" 302 11880 11890
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 225 9052 9056 "nanoParse.ml" 229 9154 9177
+)
+"nanoParse.ml" 224 8989 9003 "nanoParse.ml" 224 8989 9019
+=======
+  def _1 "nanoParse.ml" 303 11943 11947 "nanoParse.ml" 307 12045 12068
+)
+"nanoParse.ml" 302 11880 11894 "nanoParse.ml" 302 11880 11910
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 224 8989 9020 "nanoParse.ml" 224 8989 9037
+=======
+"nanoParse.ml" 302 11880 11911 "nanoParse.ml" 302 11880 11928
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 223 8961 8968 "nanoParse.ml" 223 8961 8985
+)
+"nanoParse.ml" 224 8989 9038 "nanoParse.ml" 224 8989 9039
+type(
+  int
+)
+"nanoParse.ml" 224 8989 9003 "nanoParse.ml" 224 8989 9039
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 301 11852 11859 "nanoParse.ml" 301 11852 11876
+)
+"nanoParse.ml" 302 11880 11929 "nanoParse.ml" 302 11880 11930
+type(
+  int
+)
+"nanoParse.ml" 302 11880 11894 "nanoParse.ml" 302 11880 11930
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 225 9052 9056 "nanoParse.ml" 225 9052 9064
+=======
+"nanoParse.ml" 303 11943 11947 "nanoParse.ml" 303 11943 11955
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 31 9087 9126 "nanoParse.mly" 31 9087 9132
+=======
+"nanoParse.mly" 35 11978 12017 "nanoParse.mly" 35 11978 12023
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 224 8989 8997 "nanoParse.ml" 224 8989 8999
+)
+"nanoParse.ml" 225 9052 9056 "nanoParse.ml" 229 9154 9177
+type(
+  Obj.t
+)
+"nanoParse.ml" 224 8989 8993 "nanoParse.ml" 229 9154 9177
+type(
+  Obj.t
+)
+"nanoParse.ml" 223 8961 8963 "nanoParse.ml" 229 9154 9178
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 230 9179 9186 "nanoParse.ml" 230 9179 9203
+=======
+  int_ref _1 "nanoParse.ml" 302 11880 11888 "nanoParse.ml" 302 11880 11890
+)
+"nanoParse.ml" 303 11943 11947 "nanoParse.ml" 307 12045 12068
+type(
+  Obj.t
+)
+"nanoParse.ml" 302 11880 11884 "nanoParse.ml" 307 12045 12068
+type(
+  Obj.t
+)
+"nanoParse.ml" 301 11852 11854 "nanoParse.ml" 307 12045 12069
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 308 12070 12077 "nanoParse.ml" 308 12070 12094
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 231 9207 9211 "nanoParse.ml" 237 9446 9469
+)
+"nanoParse.ml" 231 9207 9215 "nanoParse.ml" 231 9207 9217
+=======
+  def __caml_parser_env "nanoParse.ml" 309 12098 12102 "nanoParse.ml" 315 12337 12360
+)
+"nanoParse.ml" 309 12098 12106 "nanoParse.ml" 309 12098 12108
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 232 9270 9274 "nanoParse.ml" 237 9446 9469
+)
+"nanoParse.ml" 231 9207 9221 "nanoParse.ml" 231 9207 9237
+=======
+  def _1 "nanoParse.ml" 310 12161 12165 "nanoParse.ml" 315 12337 12360
+)
+"nanoParse.ml" 309 12098 12112 "nanoParse.ml" 309 12098 12128
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 231 9207 9238 "nanoParse.ml" 231 9207 9255
+=======
+"nanoParse.ml" 309 12098 12129 "nanoParse.ml" 309 12098 12146
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 230 9179 9186 "nanoParse.ml" 230 9179 9203
+)
+"nanoParse.ml" 231 9207 9256 "nanoParse.ml" 231 9207 9257
+type(
+  int
+)
+"nanoParse.ml" 231 9207 9221 "nanoParse.ml" 231 9207 9257
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 308 12070 12077 "nanoParse.ml" 308 12070 12094
+)
+"nanoParse.ml" 309 12098 12147 "nanoParse.ml" 309 12098 12148
+type(
+  int
+)
+"nanoParse.ml" 309 12098 12112 "nanoParse.ml" 309 12098 12148
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 232 9270 9278 "nanoParse.ml" 232 9270 9280
+=======
+"nanoParse.ml" 310 12161 12169 "nanoParse.ml" 310 12161 12171
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 233 9333 9337 "nanoParse.ml" 237 9446 9469
+)
+"nanoParse.ml" 232 9270 9284 "nanoParse.ml" 232 9270 9300
+=======
+  def _3 "nanoParse.ml" 311 12224 12228 "nanoParse.ml" 315 12337 12360
+)
+"nanoParse.ml" 310 12161 12175 "nanoParse.ml" 310 12161 12191
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 232 9270 9301 "nanoParse.ml" 232 9270 9318
+=======
+"nanoParse.ml" 310 12161 12192 "nanoParse.ml" 310 12161 12209
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 230 9179 9186 "nanoParse.ml" 230 9179 9203
+)
+"nanoParse.ml" 232 9270 9319 "nanoParse.ml" 232 9270 9320
+type(
+  int
+)
+"nanoParse.ml" 232 9270 9284 "nanoParse.ml" 232 9270 9320
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 308 12070 12077 "nanoParse.ml" 308 12070 12094
+)
+"nanoParse.ml" 310 12161 12210 "nanoParse.ml" 310 12161 12211
+type(
+  int
+)
+"nanoParse.ml" 310 12161 12175 "nanoParse.ml" 310 12161 12211
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 233 9333 9337 "nanoParse.ml" 233 9333 9345
+=======
+"nanoParse.ml" 311 12224 12228 "nanoParse.ml" 311 12224 12236
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 33 9368 9413 "nanoParse.mly" 33 9368 9415
+=======
+"nanoParse.mly" 37 12259 12304 "nanoParse.mly" 37 12259 12306
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 231 9207 9215 "nanoParse.ml" 231 9207 9217
+)
+"nanoParse.mly" 33 9368 9416 "nanoParse.mly" 33 9368 9418
+type(
+  Nano.binop
+)
+"nanoParse.mly" 33 9368 9419 "nanoParse.mly" 33 9368 9421
+=======
+  int_ref _1 "nanoParse.ml" 309 12098 12106 "nanoParse.ml" 309 12098 12108
+)
+"nanoParse.mly" 37 12259 12307 "nanoParse.mly" 37 12259 12309
+type(
+  Nano.binop
+)
+"nanoParse.mly" 37 12259 12310 "nanoParse.mly" 37 12259 12312
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 232 9270 9278 "nanoParse.ml" 232 9270 9280
+)
+"nanoParse.mly" 33 9368 9407 "nanoParse.mly" 33 9368 9424
+=======
+  int_ref _3 "nanoParse.ml" 310 12161 12169 "nanoParse.ml" 310 12161 12171
+)
+"nanoParse.mly" 37 12259 12298 "nanoParse.mly" 37 12259 12315
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 233 9333 9337 "nanoParse.ml" 237 9446 9469
+type(
+  Obj.t
+)
+"nanoParse.ml" 232 9270 9274 "nanoParse.ml" 237 9446 9469
+type(
+  Obj.t
+)
+"nanoParse.ml" 231 9207 9211 "nanoParse.ml" 237 9446 9469
+type(
+  Obj.t
+)
+"nanoParse.ml" 230 9179 9181 "nanoParse.ml" 237 9446 9470
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 238 9471 9478 "nanoParse.ml" 238 9471 9495
+=======
+"nanoParse.ml" 311 12224 12228 "nanoParse.ml" 315 12337 12360
+type(
+  Obj.t
+)
+"nanoParse.ml" 310 12161 12165 "nanoParse.ml" 315 12337 12360
+type(
+  Obj.t
+)
+"nanoParse.ml" 309 12098 12102 "nanoParse.ml" 315 12337 12360
+type(
+  Obj.t
+)
+"nanoParse.ml" 308 12070 12072 "nanoParse.ml" 315 12337 12361
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 316 12362 12369 "nanoParse.ml" 316 12362 12386
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 239 9499 9503 "nanoParse.ml" 244 9664 9687
+)
+"nanoParse.ml" 239 9499 9507 "nanoParse.ml" 239 9499 9509
+=======
+  def __caml_parser_env "nanoParse.ml" 317 12390 12394 "nanoParse.ml" 322 12555 12578
+)
+"nanoParse.ml" 317 12390 12398 "nanoParse.ml" 317 12390 12400
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 240 9562 9566 "nanoParse.ml" 244 9664 9687
+)
+"nanoParse.ml" 239 9499 9513 "nanoParse.ml" 239 9499 9529
+=======
+  def _1 "nanoParse.ml" 318 12453 12457 "nanoParse.ml" 322 12555 12578
+)
+"nanoParse.ml" 317 12390 12404 "nanoParse.ml" 317 12390 12420
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 239 9499 9530 "nanoParse.ml" 239 9499 9547
+=======
+"nanoParse.ml" 317 12390 12421 "nanoParse.ml" 317 12390 12438
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 238 9471 9478 "nanoParse.ml" 238 9471 9495
+)
+"nanoParse.ml" 239 9499 9548 "nanoParse.ml" 239 9499 9549
+type(
+  int
+)
+"nanoParse.ml" 239 9499 9513 "nanoParse.ml" 239 9499 9549
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 316 12362 12369 "nanoParse.ml" 316 12362 12386
+)
+"nanoParse.ml" 317 12390 12439 "nanoParse.ml" 317 12390 12440
+type(
+  int
+)
+"nanoParse.ml" 317 12390 12404 "nanoParse.ml" 317 12390 12440
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 240 9562 9566 "nanoParse.ml" 240 9562 9574
+=======
+"nanoParse.ml" 318 12453 12457 "nanoParse.ml" 318 12453 12465
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 34 9597 9636 "nanoParse.mly" 34 9597 9642
+=======
+"nanoParse.mly" 38 12488 12527 "nanoParse.mly" 38 12488 12533
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 239 9499 9507 "nanoParse.ml" 239 9499 9509
+)
+"nanoParse.ml" 240 9562 9566 "nanoParse.ml" 244 9664 9687
+type(
+  Obj.t
+)
+"nanoParse.ml" 239 9499 9503 "nanoParse.ml" 244 9664 9687
+type(
+  Obj.t
+)
+"nanoParse.ml" 238 9471 9473 "nanoParse.ml" 244 9664 9688
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 245 9689 9696 "nanoParse.ml" 245 9689 9713
+=======
+  int_ref _1 "nanoParse.ml" 317 12390 12398 "nanoParse.ml" 317 12390 12400
+)
+"nanoParse.ml" 318 12453 12457 "nanoParse.ml" 322 12555 12578
+type(
+  Obj.t
+)
+"nanoParse.ml" 317 12390 12394 "nanoParse.ml" 322 12555 12578
+type(
+  Obj.t
+)
+"nanoParse.ml" 316 12362 12364 "nanoParse.ml" 322 12555 12579
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 323 12580 12587 "nanoParse.ml" 323 12580 12604
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 246 9717 9721 "nanoParse.ml" 252 9957 9980
+)
+"nanoParse.ml" 246 9717 9725 "nanoParse.ml" 246 9717 9727
+=======
+  def __caml_parser_env "nanoParse.ml" 324 12608 12612 "nanoParse.ml" 330 12848 12871
+)
+"nanoParse.ml" 324 12608 12616 "nanoParse.ml" 324 12608 12618
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 247 9780 9784 "nanoParse.ml" 252 9957 9980
+)
+"nanoParse.ml" 246 9717 9731 "nanoParse.ml" 246 9717 9747
+=======
+  def _1 "nanoParse.ml" 325 12671 12675 "nanoParse.ml" 330 12848 12871
+)
+"nanoParse.ml" 324 12608 12622 "nanoParse.ml" 324 12608 12638
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 246 9717 9748 "nanoParse.ml" 246 9717 9765
+=======
+"nanoParse.ml" 324 12608 12639 "nanoParse.ml" 324 12608 12656
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 245 9689 9696 "nanoParse.ml" 245 9689 9713
+)
+"nanoParse.ml" 246 9717 9766 "nanoParse.ml" 246 9717 9767
+type(
+  int
+)
+"nanoParse.ml" 246 9717 9731 "nanoParse.ml" 246 9717 9767
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 323 12580 12587 "nanoParse.ml" 323 12580 12604
+)
+"nanoParse.ml" 324 12608 12657 "nanoParse.ml" 324 12608 12658
+type(
+  int
+)
+"nanoParse.ml" 324 12608 12622 "nanoParse.ml" 324 12608 12658
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 247 9780 9788 "nanoParse.ml" 247 9780 9790
+=======
+"nanoParse.ml" 325 12671 12679 "nanoParse.ml" 325 12671 12681
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 248 9843 9847 "nanoParse.ml" 252 9957 9980
+)
+"nanoParse.ml" 247 9780 9794 "nanoParse.ml" 247 9780 9810
+=======
+  def _3 "nanoParse.ml" 326 12734 12738 "nanoParse.ml" 330 12848 12871
+)
+"nanoParse.ml" 325 12671 12685 "nanoParse.ml" 325 12671 12701
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 247 9780 9811 "nanoParse.ml" 247 9780 9828
+=======
+"nanoParse.ml" 325 12671 12702 "nanoParse.ml" 325 12671 12719
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 245 9689 9696 "nanoParse.ml" 245 9689 9713
+)
+"nanoParse.ml" 247 9780 9829 "nanoParse.ml" 247 9780 9830
+type(
+  int
+)
+"nanoParse.ml" 247 9780 9794 "nanoParse.ml" 247 9780 9830
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 323 12580 12587 "nanoParse.ml" 323 12580 12604
+)
+"nanoParse.ml" 325 12671 12720 "nanoParse.ml" 325 12671 12721
+type(
+  int
+)
+"nanoParse.ml" 325 12671 12685 "nanoParse.ml" 325 12671 12721
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 248 9843 9847 "nanoParse.ml" 248 9843 9855
+=======
+"nanoParse.ml" 326 12734 12738 "nanoParse.ml" 326 12734 12746
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 36 9878 9923 "nanoParse.mly" 36 9878 9925
+=======
+"nanoParse.mly" 40 12769 12814 "nanoParse.mly" 40 12769 12816
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 246 9717 9725 "nanoParse.ml" 246 9717 9727
+)
+"nanoParse.mly" 36 9878 9926 "nanoParse.mly" 36 9878 9929
+type(
+  Nano.binop
+)
+"nanoParse.mly" 36 9878 9930 "nanoParse.mly" 36 9878 9932
+=======
+  int_ref _1 "nanoParse.ml" 324 12608 12616 "nanoParse.ml" 324 12608 12618
+)
+"nanoParse.mly" 40 12769 12817 "nanoParse.mly" 40 12769 12820
+type(
+  Nano.binop
+)
+"nanoParse.mly" 40 12769 12821 "nanoParse.mly" 40 12769 12823
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 247 9780 9788 "nanoParse.ml" 247 9780 9790
+)
+"nanoParse.mly" 36 9878 9917 "nanoParse.mly" 36 9878 9935
+=======
+  int_ref _3 "nanoParse.ml" 325 12671 12679 "nanoParse.ml" 325 12671 12681
+)
+"nanoParse.mly" 40 12769 12808 "nanoParse.mly" 40 12769 12826
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 248 9843 9847 "nanoParse.ml" 252 9957 9980
+type(
+  Obj.t
+)
+"nanoParse.ml" 247 9780 9784 "nanoParse.ml" 252 9957 9980
+type(
+  Obj.t
+)
+"nanoParse.ml" 246 9717 9721 "nanoParse.ml" 252 9957 9980
+type(
+  Obj.t
+)
+"nanoParse.ml" 245 9689 9691 "nanoParse.ml" 252 9957 9981
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 253 9982 9989 "nanoParse.ml" 253 9982 10006
+=======
+"nanoParse.ml" 326 12734 12738 "nanoParse.ml" 330 12848 12871
+type(
+  Obj.t
+)
+"nanoParse.ml" 325 12671 12675 "nanoParse.ml" 330 12848 12871
+type(
+  Obj.t
+)
+"nanoParse.ml" 324 12608 12612 "nanoParse.ml" 330 12848 12871
+type(
+  Obj.t
+)
+"nanoParse.ml" 323 12580 12582 "nanoParse.ml" 330 12848 12872
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 331 12873 12880 "nanoParse.ml" 331 12873 12897
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 254 10010 10014 "nanoParse.ml" 259 10175 10198
+)
+"nanoParse.ml" 254 10010 10018 "nanoParse.ml" 254 10010 10020
+=======
+  def __caml_parser_env "nanoParse.ml" 332 12901 12905 "nanoParse.ml" 337 13066 13089
+)
+"nanoParse.ml" 332 12901 12909 "nanoParse.ml" 332 12901 12911
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 255 10073 10077 "nanoParse.ml" 259 10175 10198
+)
+"nanoParse.ml" 254 10010 10024 "nanoParse.ml" 254 10010 10040
+=======
+  def _1 "nanoParse.ml" 333 12964 12968 "nanoParse.ml" 337 13066 13089
+)
+"nanoParse.ml" 332 12901 12915 "nanoParse.ml" 332 12901 12931
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 254 10010 10041 "nanoParse.ml" 254 10010 10058
+=======
+"nanoParse.ml" 332 12901 12932 "nanoParse.ml" 332 12901 12949
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 253 9982 9989 "nanoParse.ml" 253 9982 10006
+)
+"nanoParse.ml" 254 10010 10059 "nanoParse.ml" 254 10010 10060
+type(
+  int
+)
+"nanoParse.ml" 254 10010 10024 "nanoParse.ml" 254 10010 10060
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 331 12873 12880 "nanoParse.ml" 331 12873 12897
+)
+"nanoParse.ml" 332 12901 12950 "nanoParse.ml" 332 12901 12951
+type(
+  int
+)
+"nanoParse.ml" 332 12901 12915 "nanoParse.ml" 332 12901 12951
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 255 10073 10077 "nanoParse.ml" 255 10073 10085
+=======
+"nanoParse.ml" 333 12964 12968 "nanoParse.ml" 333 12964 12976
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 37 10108 10147 "nanoParse.mly" 37 10108 10153
+=======
+"nanoParse.mly" 41 12999 13038 "nanoParse.mly" 41 12999 13044
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 254 10010 10018 "nanoParse.ml" 254 10010 10020
+)
+"nanoParse.ml" 255 10073 10077 "nanoParse.ml" 259 10175 10198
+type(
+  Obj.t
+)
+"nanoParse.ml" 254 10010 10014 "nanoParse.ml" 259 10175 10198
+type(
+  Obj.t
+)
+"nanoParse.ml" 253 9982 9984 "nanoParse.ml" 259 10175 10199
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 260 10200 10207 "nanoParse.ml" 260 10200 10224
+=======
+  int_ref _1 "nanoParse.ml" 332 12901 12909 "nanoParse.ml" 332 12901 12911
+)
+"nanoParse.ml" 333 12964 12968 "nanoParse.ml" 337 13066 13089
+type(
+  Obj.t
+)
+"nanoParse.ml" 332 12901 12905 "nanoParse.ml" 337 13066 13089
+type(
+  Obj.t
+)
+"nanoParse.ml" 331 12873 12875 "nanoParse.ml" 337 13066 13090
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 338 13091 13098 "nanoParse.ml" 338 13091 13115
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 261 10228 10232 "nanoParse.ml" 267 10468 10491
+)
+"nanoParse.ml" 261 10228 10236 "nanoParse.ml" 261 10228 10238
+=======
+  def __caml_parser_env "nanoParse.ml" 339 13119 13123 "nanoParse.ml" 345 13359 13382
+)
+"nanoParse.ml" 339 13119 13127 "nanoParse.ml" 339 13119 13129
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 262 10291 10295 "nanoParse.ml" 267 10468 10491
+)
+"nanoParse.ml" 261 10228 10242 "nanoParse.ml" 261 10228 10258
+=======
+  def _1 "nanoParse.ml" 340 13182 13186 "nanoParse.ml" 345 13359 13382
+)
+"nanoParse.ml" 339 13119 13133 "nanoParse.ml" 339 13119 13149
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 261 10228 10259 "nanoParse.ml" 261 10228 10276
+=======
+"nanoParse.ml" 339 13119 13150 "nanoParse.ml" 339 13119 13167
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 260 10200 10207 "nanoParse.ml" 260 10200 10224
+)
+"nanoParse.ml" 261 10228 10277 "nanoParse.ml" 261 10228 10278
+type(
+  int
+)
+"nanoParse.ml" 261 10228 10242 "nanoParse.ml" 261 10228 10278
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 338 13091 13098 "nanoParse.ml" 338 13091 13115
+)
+"nanoParse.ml" 339 13119 13168 "nanoParse.ml" 339 13119 13169
+type(
+  int
+)
+"nanoParse.ml" 339 13119 13133 "nanoParse.ml" 339 13119 13169
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 262 10291 10299 "nanoParse.ml" 262 10291 10301
+=======
+"nanoParse.ml" 340 13182 13190 "nanoParse.ml" 340 13182 13192
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 263 10355 10359 "nanoParse.ml" 267 10468 10491
+)
+"nanoParse.ml" 262 10291 10305 "nanoParse.ml" 262 10291 10321
+=======
+  def _3 "nanoParse.ml" 341 13246 13250 "nanoParse.ml" 345 13359 13382
+)
+"nanoParse.ml" 340 13182 13196 "nanoParse.ml" 340 13182 13212
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 262 10291 10322 "nanoParse.ml" 262 10291 10339
+=======
+"nanoParse.ml" 340 13182 13213 "nanoParse.ml" 340 13182 13230
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 260 10200 10207 "nanoParse.ml" 260 10200 10224
+)
+"nanoParse.ml" 262 10291 10340 "nanoParse.ml" 262 10291 10341
+type(
+  int
+)
+"nanoParse.ml" 262 10291 10305 "nanoParse.ml" 262 10291 10341
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 338 13091 13098 "nanoParse.ml" 338 13091 13115
+)
+"nanoParse.ml" 340 13182 13231 "nanoParse.ml" 340 13182 13232
+type(
+  int
+)
+"nanoParse.ml" 340 13182 13196 "nanoParse.ml" 340 13182 13232
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 263 10355 10359 "nanoParse.ml" 263 10355 10367
+=======
+"nanoParse.ml" 341 13246 13250 "nanoParse.ml" 341 13246 13258
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 39 10390 10435 "nanoParse.mly" 39 10390 10437
+=======
+"nanoParse.mly" 43 13281 13326 "nanoParse.mly" 43 13281 13328
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 261 10228 10236 "nanoParse.ml" 261 10228 10238
+)
+"nanoParse.mly" 39 10390 10438 "nanoParse.mly" 39 10390 10440
+type(
+  Nano.binop
+)
+"nanoParse.mly" 39 10390 10441 "nanoParse.mly" 39 10390 10443
+=======
+  int_ref _1 "nanoParse.ml" 339 13119 13127 "nanoParse.ml" 339 13119 13129
+)
+"nanoParse.mly" 43 13281 13329 "nanoParse.mly" 43 13281 13331
+type(
+  Nano.binop
+)
+"nanoParse.mly" 43 13281 13332 "nanoParse.mly" 43 13281 13334
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 262 10291 10299 "nanoParse.ml" 262 10291 10301
+)
+"nanoParse.mly" 39 10390 10429 "nanoParse.mly" 39 10390 10446
+=======
+  int_ref _3 "nanoParse.ml" 340 13182 13190 "nanoParse.ml" 340 13182 13192
+)
+"nanoParse.mly" 43 13281 13320 "nanoParse.mly" 43 13281 13337
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 263 10355 10359 "nanoParse.ml" 267 10468 10491
+type(
+  Obj.t
+)
+"nanoParse.ml" 262 10291 10295 "nanoParse.ml" 267 10468 10491
+type(
+  Obj.t
+)
+"nanoParse.ml" 261 10228 10232 "nanoParse.ml" 267 10468 10491
+type(
+  Obj.t
+)
+"nanoParse.ml" 260 10200 10202 "nanoParse.ml" 267 10468 10492
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 268 10493 10500 "nanoParse.ml" 268 10493 10517
+=======
+"nanoParse.ml" 341 13246 13250 "nanoParse.ml" 345 13359 13382
+type(
+  Obj.t
+)
+"nanoParse.ml" 340 13182 13186 "nanoParse.ml" 345 13359 13382
+type(
+  Obj.t
+)
+"nanoParse.ml" 339 13119 13123 "nanoParse.ml" 345 13359 13382
+type(
+  Obj.t
+)
+"nanoParse.ml" 338 13091 13093 "nanoParse.ml" 345 13359 13383
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 346 13384 13391 "nanoParse.ml" 346 13384 13408
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 269 10521 10525 "nanoParse.ml" 274 10687 10710
+)
+"nanoParse.ml" 269 10521 10529 "nanoParse.ml" 269 10521 10531
+=======
+  def __caml_parser_env "nanoParse.ml" 347 13412 13416 "nanoParse.ml" 352 13578 13601
+)
+"nanoParse.ml" 347 13412 13420 "nanoParse.ml" 347 13412 13422
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 270 10585 10589 "nanoParse.ml" 274 10687 10710
+)
+"nanoParse.ml" 269 10521 10535 "nanoParse.ml" 269 10521 10551
+=======
+  def _1 "nanoParse.ml" 348 13476 13480 "nanoParse.ml" 352 13578 13601
+)
+"nanoParse.ml" 347 13412 13426 "nanoParse.ml" 347 13412 13442
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 269 10521 10552 "nanoParse.ml" 269 10521 10569
+=======
+"nanoParse.ml" 347 13412 13443 "nanoParse.ml" 347 13412 13460
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 268 10493 10500 "nanoParse.ml" 268 10493 10517
+)
+"nanoParse.ml" 269 10521 10570 "nanoParse.ml" 269 10521 10571
+type(
+  int
+)
+"nanoParse.ml" 269 10521 10535 "nanoParse.ml" 269 10521 10571
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 346 13384 13391 "nanoParse.ml" 346 13384 13408
+)
+"nanoParse.ml" 347 13412 13461 "nanoParse.ml" 347 13412 13462
+type(
+  int
+)
+"nanoParse.ml" 347 13412 13426 "nanoParse.ml" 347 13412 13462
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 270 10585 10589 "nanoParse.ml" 270 10585 10597
+=======
+"nanoParse.ml" 348 13476 13480 "nanoParse.ml" 348 13476 13488
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 41 10620 10659 "nanoParse.mly" 41 10620 10665
+=======
+"nanoParse.mly" 45 13511 13550 "nanoParse.mly" 45 13511 13556
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 269 10521 10529 "nanoParse.ml" 269 10521 10531
+)
+"nanoParse.ml" 270 10585 10589 "nanoParse.ml" 274 10687 10710
+type(
+  Obj.t
+)
+"nanoParse.ml" 269 10521 10525 "nanoParse.ml" 274 10687 10710
+type(
+  Obj.t
+)
+"nanoParse.ml" 268 10493 10495 "nanoParse.ml" 274 10687 10711
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 275 10712 10719 "nanoParse.ml" 275 10712 10736
+=======
+  int_ref _1 "nanoParse.ml" 347 13412 13420 "nanoParse.ml" 347 13412 13422
+)
+"nanoParse.ml" 348 13476 13480 "nanoParse.ml" 352 13578 13601
+type(
+  Obj.t
+)
+"nanoParse.ml" 347 13412 13416 "nanoParse.ml" 352 13578 13601
+type(
+  Obj.t
+)
+"nanoParse.ml" 346 13384 13386 "nanoParse.ml" 352 13578 13602
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 353 13603 13610 "nanoParse.ml" 353 13603 13627
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 276 10740 10744 "nanoParse.ml" 282 10982 11006
+)
+"nanoParse.ml" 276 10740 10748 "nanoParse.ml" 276 10740 10750
+=======
+  def __caml_parser_env "nanoParse.ml" 354 13631 13635 "nanoParse.ml" 360 13873 13897
+)
+"nanoParse.ml" 354 13631 13639 "nanoParse.ml" 354 13631 13641
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 277 10803 10807 "nanoParse.ml" 282 10982 11006
+)
+"nanoParse.ml" 276 10740 10754 "nanoParse.ml" 276 10740 10770
+=======
+  def _1 "nanoParse.ml" 355 13694 13698 "nanoParse.ml" 360 13873 13897
+)
+"nanoParse.ml" 354 13631 13645 "nanoParse.ml" 354 13631 13661
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 276 10740 10771 "nanoParse.ml" 276 10740 10788
+=======
+"nanoParse.ml" 354 13631 13662 "nanoParse.ml" 354 13631 13679
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 275 10712 10719 "nanoParse.ml" 275 10712 10736
+)
+"nanoParse.ml" 276 10740 10789 "nanoParse.ml" 276 10740 10790
+type(
+  int
+)
+"nanoParse.ml" 276 10740 10754 "nanoParse.ml" 276 10740 10790
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 353 13603 13610 "nanoParse.ml" 353 13603 13627
+)
+"nanoParse.ml" 354 13631 13680 "nanoParse.ml" 354 13631 13681
+type(
+  int
+)
+"nanoParse.ml" 354 13631 13645 "nanoParse.ml" 354 13631 13681
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 277 10803 10811 "nanoParse.ml" 277 10803 10813
+=======
+"nanoParse.ml" 355 13694 13702 "nanoParse.ml" 355 13694 13704
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 278 10867 10871 "nanoParse.ml" 282 10982 11006
+)
+"nanoParse.ml" 277 10803 10817 "nanoParse.ml" 277 10803 10833
+=======
+  def _3 "nanoParse.ml" 356 13758 13762 "nanoParse.ml" 360 13873 13897
+)
+"nanoParse.ml" 355 13694 13708 "nanoParse.ml" 355 13694 13724
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 277 10803 10834 "nanoParse.ml" 277 10803 10851
+=======
+"nanoParse.ml" 355 13694 13725 "nanoParse.ml" 355 13694 13742
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 275 10712 10719 "nanoParse.ml" 275 10712 10736
+)
+"nanoParse.ml" 277 10803 10852 "nanoParse.ml" 277 10803 10853
+type(
+  int
+)
+"nanoParse.ml" 277 10803 10817 "nanoParse.ml" 277 10803 10853
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 353 13603 13610 "nanoParse.ml" 353 13603 13627
+)
+"nanoParse.ml" 355 13694 13743 "nanoParse.ml" 355 13694 13744
+type(
+  int
+)
+"nanoParse.ml" 355 13694 13708 "nanoParse.ml" 355 13694 13744
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 278 10867 10871 "nanoParse.ml" 278 10867 10879
+=======
+"nanoParse.ml" 356 13758 13762 "nanoParse.ml" 356 13758 13770
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 43 10902 10947 "nanoParse.mly" 43 10902 10949
+=======
+"nanoParse.mly" 47 13793 13838 "nanoParse.mly" 47 13793 13840
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 276 10740 10748 "nanoParse.ml" 276 10740 10750
+)
+"nanoParse.mly" 43 10902 10950 "nanoParse.mly" 43 10902 10954
+type(
+  Nano.binop
+)
+"nanoParse.mly" 43 10902 10955 "nanoParse.mly" 43 10902 10957
+=======
+  int_ref _1 "nanoParse.ml" 354 13631 13639 "nanoParse.ml" 354 13631 13641
+)
+"nanoParse.mly" 47 13793 13841 "nanoParse.mly" 47 13793 13845
+type(
+  Nano.binop
+)
+"nanoParse.mly" 47 13793 13846 "nanoParse.mly" 47 13793 13848
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 277 10803 10811 "nanoParse.ml" 277 10803 10813
+)
+"nanoParse.mly" 43 10902 10941 "nanoParse.mly" 43 10902 10960
+=======
+  int_ref _3 "nanoParse.ml" 355 13694 13702 "nanoParse.ml" 355 13694 13704
+)
+"nanoParse.mly" 47 13793 13832 "nanoParse.mly" 47 13793 13851
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 278 10867 10871 "nanoParse.ml" 282 10982 11006
+type(
+  Obj.t
+)
+"nanoParse.ml" 277 10803 10807 "nanoParse.ml" 282 10982 11006
+type(
+  Obj.t
+)
+"nanoParse.ml" 276 10740 10744 "nanoParse.ml" 282 10982 11006
+type(
+  Obj.t
+)
+"nanoParse.ml" 275 10712 10714 "nanoParse.ml" 282 10982 11007
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 283 11008 11015 "nanoParse.ml" 283 11008 11032
+=======
+"nanoParse.ml" 356 13758 13762 "nanoParse.ml" 360 13873 13897
+type(
+  Obj.t
+)
+"nanoParse.ml" 355 13694 13698 "nanoParse.ml" 360 13873 13897
+type(
+  Obj.t
+)
+"nanoParse.ml" 354 13631 13635 "nanoParse.ml" 360 13873 13897
+type(
+  Obj.t
+)
+"nanoParse.ml" 353 13603 13605 "nanoParse.ml" 360 13873 13898
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 361 13899 13906 "nanoParse.ml" 361 13899 13923
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 284 11036 11040 "nanoParse.ml" 289 11201 11225
+)
+"nanoParse.ml" 284 11036 11044 "nanoParse.ml" 284 11036 11046
+=======
+  def __caml_parser_env "nanoParse.ml" 362 13927 13931 "nanoParse.ml" 367 14092 14116
+)
+"nanoParse.ml" 362 13927 13935 "nanoParse.ml" 362 13927 13937
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 285 11099 11103 "nanoParse.ml" 289 11201 11225
+)
+"nanoParse.ml" 284 11036 11050 "nanoParse.ml" 284 11036 11066
+=======
+  def _1 "nanoParse.ml" 363 13990 13994 "nanoParse.ml" 367 14092 14116
+)
+"nanoParse.ml" 362 13927 13941 "nanoParse.ml" 362 13927 13957
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 284 11036 11067 "nanoParse.ml" 284 11036 11084
+=======
+"nanoParse.ml" 362 13927 13958 "nanoParse.ml" 362 13927 13975
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 283 11008 11015 "nanoParse.ml" 283 11008 11032
+)
+"nanoParse.ml" 284 11036 11085 "nanoParse.ml" 284 11036 11086
+type(
+  int
+)
+"nanoParse.ml" 284 11036 11050 "nanoParse.ml" 284 11036 11086
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 361 13899 13906 "nanoParse.ml" 361 13899 13923
+)
+"nanoParse.ml" 362 13927 13976 "nanoParse.ml" 362 13927 13977
+type(
+  int
+)
+"nanoParse.ml" 362 13927 13941 "nanoParse.ml" 362 13927 13977
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 285 11099 11103 "nanoParse.ml" 285 11099 11111
+=======
+"nanoParse.ml" 363 13990 13994 "nanoParse.ml" 363 13990 14002
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 44 11134 11173 "nanoParse.mly" 44 11134 11179
+=======
+"nanoParse.mly" 48 14025 14064 "nanoParse.mly" 48 14025 14070
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 284 11036 11044 "nanoParse.ml" 284 11036 11046
+)
+"nanoParse.ml" 285 11099 11103 "nanoParse.ml" 289 11201 11225
+type(
+  Obj.t
+)
+"nanoParse.ml" 284 11036 11040 "nanoParse.ml" 289 11201 11225
+type(
+  Obj.t
+)
+"nanoParse.ml" 283 11008 11010 "nanoParse.ml" 289 11201 11226
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 290 11227 11234 "nanoParse.ml" 290 11227 11251
+=======
+  int_ref _1 "nanoParse.ml" 362 13927 13935 "nanoParse.ml" 362 13927 13937
+)
+"nanoParse.ml" 363 13990 13994 "nanoParse.ml" 367 14092 14116
+type(
+  Obj.t
+)
+"nanoParse.ml" 362 13927 13931 "nanoParse.ml" 367 14092 14116
+type(
+  Obj.t
+)
+"nanoParse.ml" 361 13899 13901 "nanoParse.ml" 367 14092 14117
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 368 14118 14125 "nanoParse.ml" 368 14118 14142
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 291 11255 11259 "nanoParse.ml" 297 11496 11519
+)
+"nanoParse.ml" 291 11255 11263 "nanoParse.ml" 291 11255 11265
+=======
+  def __caml_parser_env "nanoParse.ml" 369 14146 14150 "nanoParse.ml" 375 14387 14410
+)
+"nanoParse.ml" 369 14146 14154 "nanoParse.ml" 369 14146 14156
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 292 11318 11322 "nanoParse.ml" 297 11496 11519
+)
+"nanoParse.ml" 291 11255 11269 "nanoParse.ml" 291 11255 11285
+=======
+  def _1 "nanoParse.ml" 370 14209 14213 "nanoParse.ml" 375 14387 14410
+)
+"nanoParse.ml" 369 14146 14160 "nanoParse.ml" 369 14146 14176
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 291 11255 11286 "nanoParse.ml" 291 11255 11303
+=======
+"nanoParse.ml" 369 14146 14177 "nanoParse.ml" 369 14146 14194
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 290 11227 11234 "nanoParse.ml" 290 11227 11251
+)
+"nanoParse.ml" 291 11255 11304 "nanoParse.ml" 291 11255 11305
+type(
+  int
+)
+"nanoParse.ml" 291 11255 11269 "nanoParse.ml" 291 11255 11305
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 368 14118 14125 "nanoParse.ml" 368 14118 14142
+)
+"nanoParse.ml" 369 14146 14195 "nanoParse.ml" 369 14146 14196
+type(
+  int
+)
+"nanoParse.ml" 369 14146 14160 "nanoParse.ml" 369 14146 14196
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 292 11318 11326 "nanoParse.ml" 292 11318 11328
+=======
+"nanoParse.ml" 370 14209 14217 "nanoParse.ml" 370 14209 14219
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 293 11381 11385 "nanoParse.ml" 297 11496 11519
+)
+"nanoParse.ml" 292 11318 11332 "nanoParse.ml" 292 11318 11348
+=======
+  def _3 "nanoParse.ml" 371 14272 14276 "nanoParse.ml" 375 14387 14410
+)
+"nanoParse.ml" 370 14209 14223 "nanoParse.ml" 370 14209 14239
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 292 11318 11349 "nanoParse.ml" 292 11318 11366
+=======
+"nanoParse.ml" 370 14209 14240 "nanoParse.ml" 370 14209 14257
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 290 11227 11234 "nanoParse.ml" 290 11227 11251
+)
+"nanoParse.ml" 292 11318 11367 "nanoParse.ml" 292 11318 11368
+type(
+  int
+)
+"nanoParse.ml" 292 11318 11332 "nanoParse.ml" 292 11318 11368
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 368 14118 14125 "nanoParse.ml" 368 14118 14142
+)
+"nanoParse.ml" 370 14209 14258 "nanoParse.ml" 370 14209 14259
+type(
+  int
+)
+"nanoParse.ml" 370 14209 14223 "nanoParse.ml" 370 14209 14259
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 293 11381 11385 "nanoParse.ml" 293 11381 11393
+=======
+"nanoParse.ml" 371 14272 14276 "nanoParse.ml" 371 14272 14284
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 46 11416 11461 "nanoParse.mly" 46 11416 11463
+=======
+"nanoParse.mly" 50 14307 14352 "nanoParse.mly" 50 14307 14354
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 291 11255 11263 "nanoParse.ml" 291 11255 11265
+)
+"nanoParse.mly" 46 11416 11464 "nanoParse.mly" 46 11416 11468
+type(
+  Nano.binop
+)
+"nanoParse.mly" 46 11416 11469 "nanoParse.mly" 46 11416 11471
+=======
+  int_ref _1 "nanoParse.ml" 369 14146 14154 "nanoParse.ml" 369 14146 14156
+)
+"nanoParse.mly" 50 14307 14355 "nanoParse.mly" 50 14307 14359
+type(
+  Nano.binop
+)
+"nanoParse.mly" 50 14307 14360 "nanoParse.mly" 50 14307 14362
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 292 11318 11326 "nanoParse.ml" 292 11318 11328
+)
+"nanoParse.mly" 46 11416 11455 "nanoParse.mly" 46 11416 11474
+=======
+  int_ref _3 "nanoParse.ml" 370 14209 14217 "nanoParse.ml" 370 14209 14219
+)
+"nanoParse.mly" 50 14307 14346 "nanoParse.mly" 50 14307 14365
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 293 11381 11385 "nanoParse.ml" 297 11496 11519
+type(
+  Obj.t
+)
+"nanoParse.ml" 292 11318 11322 "nanoParse.ml" 297 11496 11519
+type(
+  Obj.t
+)
+"nanoParse.ml" 291 11255 11259 "nanoParse.ml" 297 11496 11519
+type(
+  Obj.t
+)
+"nanoParse.ml" 290 11227 11229 "nanoParse.ml" 297 11496 11520
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 298 11521 11528 "nanoParse.ml" 298 11521 11545
+=======
+"nanoParse.ml" 371 14272 14276 "nanoParse.ml" 375 14387 14410
+type(
+  Obj.t
+)
+"nanoParse.ml" 370 14209 14213 "nanoParse.ml" 375 14387 14410
+type(
+  Obj.t
+)
+"nanoParse.ml" 369 14146 14150 "nanoParse.ml" 375 14387 14410
+type(
+  Obj.t
+)
+"nanoParse.ml" 368 14118 14120 "nanoParse.ml" 375 14387 14411
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 376 14412 14419 "nanoParse.ml" 376 14412 14436
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 299 11549 11553 "nanoParse.ml" 304 11714 11737
+)
+"nanoParse.ml" 299 11549 11557 "nanoParse.ml" 299 11549 11559
+=======
+  def __caml_parser_env "nanoParse.ml" 377 14440 14444 "nanoParse.ml" 382 14605 14628
+)
+"nanoParse.ml" 377 14440 14448 "nanoParse.ml" 377 14440 14450
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 300 11612 11616 "nanoParse.ml" 304 11714 11737
+)
+"nanoParse.ml" 299 11549 11563 "nanoParse.ml" 299 11549 11579
+=======
+  def _1 "nanoParse.ml" 378 14503 14507 "nanoParse.ml" 382 14605 14628
+)
+"nanoParse.ml" 377 14440 14454 "nanoParse.ml" 377 14440 14470
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 299 11549 11580 "nanoParse.ml" 299 11549 11597
+=======
+"nanoParse.ml" 377 14440 14471 "nanoParse.ml" 377 14440 14488
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 298 11521 11528 "nanoParse.ml" 298 11521 11545
+)
+"nanoParse.ml" 299 11549 11598 "nanoParse.ml" 299 11549 11599
+type(
+  int
+)
+"nanoParse.ml" 299 11549 11563 "nanoParse.ml" 299 11549 11599
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 376 14412 14419 "nanoParse.ml" 376 14412 14436
+)
+"nanoParse.ml" 377 14440 14489 "nanoParse.ml" 377 14440 14490
+type(
+  int
+)
+"nanoParse.ml" 377 14440 14454 "nanoParse.ml" 377 14440 14490
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 300 11612 11616 "nanoParse.ml" 300 11612 11624
+=======
+"nanoParse.ml" 378 14503 14507 "nanoParse.ml" 378 14503 14515
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 48 11647 11686 "nanoParse.mly" 48 11647 11692
+=======
+"nanoParse.mly" 52 14538 14577 "nanoParse.mly" 52 14538 14583
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 299 11549 11557 "nanoParse.ml" 299 11549 11559
+)
+"nanoParse.ml" 300 11612 11616 "nanoParse.ml" 304 11714 11737
+type(
+  Obj.t
+)
+"nanoParse.ml" 299 11549 11553 "nanoParse.ml" 304 11714 11737
+type(
+  Obj.t
+)
+"nanoParse.ml" 298 11521 11523 "nanoParse.ml" 304 11714 11738
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 305 11739 11746 "nanoParse.ml" 305 11739 11763
+=======
+  int_ref _1 "nanoParse.ml" 377 14440 14448 "nanoParse.ml" 377 14440 14450
+)
+"nanoParse.ml" 378 14503 14507 "nanoParse.ml" 382 14605 14628
+type(
+  Obj.t
+)
+"nanoParse.ml" 377 14440 14444 "nanoParse.ml" 382 14605 14628
+type(
+  Obj.t
+)
+"nanoParse.ml" 376 14412 14414 "nanoParse.ml" 382 14605 14629
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 383 14630 14637 "nanoParse.ml" 383 14630 14654
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 306 11767 11771 "nanoParse.ml" 312 12007 12030
+)
+"nanoParse.ml" 306 11767 11775 "nanoParse.ml" 306 11767 11777
+=======
+  def __caml_parser_env "nanoParse.ml" 384 14658 14662 "nanoParse.ml" 390 14898 14921
+)
+"nanoParse.ml" 384 14658 14666 "nanoParse.ml" 384 14658 14668
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 307 11830 11834 "nanoParse.ml" 312 12007 12030
+)
+"nanoParse.ml" 306 11767 11781 "nanoParse.ml" 306 11767 11797
+=======
+  def _1 "nanoParse.ml" 385 14721 14725 "nanoParse.ml" 390 14898 14921
+)
+"nanoParse.ml" 384 14658 14672 "nanoParse.ml" 384 14658 14688
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 306 11767 11798 "nanoParse.ml" 306 11767 11815
+=======
+"nanoParse.ml" 384 14658 14689 "nanoParse.ml" 384 14658 14706
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 305 11739 11746 "nanoParse.ml" 305 11739 11763
+)
+"nanoParse.ml" 306 11767 11816 "nanoParse.ml" 306 11767 11817
+type(
+  int
+)
+"nanoParse.ml" 306 11767 11781 "nanoParse.ml" 306 11767 11817
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 383 14630 14637 "nanoParse.ml" 383 14630 14654
+)
+"nanoParse.ml" 384 14658 14707 "nanoParse.ml" 384 14658 14708
+type(
+  int
+)
+"nanoParse.ml" 384 14658 14672 "nanoParse.ml" 384 14658 14708
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 307 11830 11838 "nanoParse.ml" 307 11830 11840
+=======
+"nanoParse.ml" 385 14721 14729 "nanoParse.ml" 385 14721 14731
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 308 11893 11897 "nanoParse.ml" 312 12007 12030
+)
+"nanoParse.ml" 307 11830 11844 "nanoParse.ml" 307 11830 11860
+=======
+  def _3 "nanoParse.ml" 386 14784 14788 "nanoParse.ml" 390 14898 14921
+)
+"nanoParse.ml" 385 14721 14735 "nanoParse.ml" 385 14721 14751
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 307 11830 11861 "nanoParse.ml" 307 11830 11878
+=======
+"nanoParse.ml" 385 14721 14752 "nanoParse.ml" 385 14721 14769
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 305 11739 11746 "nanoParse.ml" 305 11739 11763
+)
+"nanoParse.ml" 307 11830 11879 "nanoParse.ml" 307 11830 11880
+type(
+  int
+)
+"nanoParse.ml" 307 11830 11844 "nanoParse.ml" 307 11830 11880
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 383 14630 14637 "nanoParse.ml" 383 14630 14654
+)
+"nanoParse.ml" 385 14721 14770 "nanoParse.ml" 385 14721 14771
+type(
+  int
+)
+"nanoParse.ml" 385 14721 14735 "nanoParse.ml" 385 14721 14771
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 308 11893 11897 "nanoParse.ml" 308 11893 11905
+=======
+"nanoParse.ml" 386 14784 14788 "nanoParse.ml" 386 14784 14796
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 50 11928 11973 "nanoParse.mly" 50 11928 11975
+=======
+"nanoParse.mly" 54 14819 14864 "nanoParse.mly" 54 14819 14866
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 306 11767 11775 "nanoParse.ml" 306 11767 11777
+)
+"nanoParse.mly" 50 11928 11976 "nanoParse.mly" 50 11928 11979
+type(
+  Nano.binop
+)
+"nanoParse.mly" 50 11928 11980 "nanoParse.mly" 50 11928 11982
+=======
+  int_ref _1 "nanoParse.ml" 384 14658 14666 "nanoParse.ml" 384 14658 14668
+)
+"nanoParse.mly" 54 14819 14867 "nanoParse.mly" 54 14819 14870
+type(
+  Nano.binop
+)
+"nanoParse.mly" 54 14819 14871 "nanoParse.mly" 54 14819 14873
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 307 11830 11838 "nanoParse.ml" 307 11830 11840
+)
+"nanoParse.mly" 50 11928 11967 "nanoParse.mly" 50 11928 11985
+=======
+  int_ref _3 "nanoParse.ml" 385 14721 14729 "nanoParse.ml" 385 14721 14731
+)
+"nanoParse.mly" 54 14819 14858 "nanoParse.mly" 54 14819 14876
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 308 11893 11897 "nanoParse.ml" 312 12007 12030
+type(
+  Obj.t
+)
+"nanoParse.ml" 307 11830 11834 "nanoParse.ml" 312 12007 12030
+type(
+  Obj.t
+)
+"nanoParse.ml" 306 11767 11771 "nanoParse.ml" 312 12007 12030
+type(
+  Obj.t
+)
+"nanoParse.ml" 305 11739 11741 "nanoParse.ml" 312 12007 12031
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 313 12032 12039 "nanoParse.ml" 313 12032 12056
+=======
+"nanoParse.ml" 386 14784 14788 "nanoParse.ml" 390 14898 14921
+type(
+  Obj.t
+)
+"nanoParse.ml" 385 14721 14725 "nanoParse.ml" 390 14898 14921
+type(
+  Obj.t
+)
+"nanoParse.ml" 384 14658 14662 "nanoParse.ml" 390 14898 14921
+type(
+  Obj.t
+)
+"nanoParse.ml" 383 14630 14632 "nanoParse.ml" 390 14898 14922
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 391 14923 14930 "nanoParse.ml" 391 14923 14947
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 314 12060 12064 "nanoParse.ml" 319 12225 12248
+)
+"nanoParse.ml" 314 12060 12068 "nanoParse.ml" 314 12060 12070
+=======
+  def __caml_parser_env "nanoParse.ml" 392 14951 14955 "nanoParse.ml" 397 15116 15139
+)
+"nanoParse.ml" 392 14951 14959 "nanoParse.ml" 392 14951 14961
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 315 12123 12127 "nanoParse.ml" 319 12225 12248
+)
+"nanoParse.ml" 314 12060 12074 "nanoParse.ml" 314 12060 12090
+=======
+  def _1 "nanoParse.ml" 393 15014 15018 "nanoParse.ml" 397 15116 15139
+)
+"nanoParse.ml" 392 14951 14965 "nanoParse.ml" 392 14951 14981
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 314 12060 12091 "nanoParse.ml" 314 12060 12108
+=======
+"nanoParse.ml" 392 14951 14982 "nanoParse.ml" 392 14951 14999
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 313 12032 12039 "nanoParse.ml" 313 12032 12056
+)
+"nanoParse.ml" 314 12060 12109 "nanoParse.ml" 314 12060 12110
+type(
+  int
+)
+"nanoParse.ml" 314 12060 12074 "nanoParse.ml" 314 12060 12110
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 391 14923 14930 "nanoParse.ml" 391 14923 14947
+)
+"nanoParse.ml" 392 14951 15000 "nanoParse.ml" 392 14951 15001
+type(
+  int
+)
+"nanoParse.ml" 392 14951 14965 "nanoParse.ml" 392 14951 15001
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 315 12123 12127 "nanoParse.ml" 315 12123 12135
+=======
+"nanoParse.ml" 393 15014 15018 "nanoParse.ml" 393 15014 15026
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 52 12158 12197 "nanoParse.mly" 52 12158 12203
+=======
+"nanoParse.mly" 56 15049 15088 "nanoParse.mly" 56 15049 15094
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 314 12060 12068 "nanoParse.ml" 314 12060 12070
+)
+"nanoParse.ml" 315 12123 12127 "nanoParse.ml" 319 12225 12248
+type(
+  Obj.t
+)
+"nanoParse.ml" 314 12060 12064 "nanoParse.ml" 319 12225 12248
+type(
+  Obj.t
+)
+"nanoParse.ml" 313 12032 12034 "nanoParse.ml" 319 12225 12249
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 320 12250 12257 "nanoParse.ml" 320 12250 12274
+=======
+  int_ref _1 "nanoParse.ml" 392 14951 14959 "nanoParse.ml" 392 14951 14961
+)
+"nanoParse.ml" 393 15014 15018 "nanoParse.ml" 397 15116 15139
+type(
+  Obj.t
+)
+"nanoParse.ml" 392 14951 14955 "nanoParse.ml" 397 15116 15139
+type(
+  Obj.t
+)
+"nanoParse.ml" 391 14923 14925 "nanoParse.ml" 397 15116 15140
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 398 15141 15148 "nanoParse.ml" 398 15141 15165
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 321 12278 12282 "nanoParse.ml" 327 12514 12537
+)
+"nanoParse.ml" 321 12278 12286 "nanoParse.ml" 321 12278 12288
+=======
+  def __caml_parser_env "nanoParse.ml" 399 15169 15173 "nanoParse.ml" 405 15405 15428
+)
+"nanoParse.ml" 399 15169 15177 "nanoParse.ml" 399 15169 15179
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 322 12341 12345 "nanoParse.ml" 327 12514 12537
+)
+"nanoParse.ml" 321 12278 12292 "nanoParse.ml" 321 12278 12308
+=======
+  def _1 "nanoParse.ml" 400 15232 15236 "nanoParse.ml" 405 15405 15428
+)
+"nanoParse.ml" 399 15169 15183 "nanoParse.ml" 399 15169 15199
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 321 12278 12309 "nanoParse.ml" 321 12278 12326
+=======
+"nanoParse.ml" 399 15169 15200 "nanoParse.ml" 399 15169 15217
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 320 12250 12257 "nanoParse.ml" 320 12250 12274
+)
+"nanoParse.ml" 321 12278 12327 "nanoParse.ml" 321 12278 12328
+type(
+  int
+)
+"nanoParse.ml" 321 12278 12292 "nanoParse.ml" 321 12278 12328
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 398 15141 15148 "nanoParse.ml" 398 15141 15165
+)
+"nanoParse.ml" 399 15169 15218 "nanoParse.ml" 399 15169 15219
+type(
+  int
+)
+"nanoParse.ml" 399 15169 15183 "nanoParse.ml" 399 15169 15219
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 322 12341 12349 "nanoParse.ml" 322 12341 12351
+=======
+"nanoParse.ml" 400 15232 15240 "nanoParse.ml" 400 15232 15242
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _2 "nanoParse.ml" 323 12404 12408 "nanoParse.ml" 327 12514 12537
+)
+"nanoParse.ml" 322 12341 12355 "nanoParse.ml" 322 12341 12371
+=======
+  def _2 "nanoParse.ml" 401 15295 15299 "nanoParse.ml" 405 15405 15428
+)
+"nanoParse.ml" 400 15232 15246 "nanoParse.ml" 400 15232 15262
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 322 12341 12372 "nanoParse.ml" 322 12341 12389
+=======
+"nanoParse.ml" 400 15232 15263 "nanoParse.ml" 400 15232 15280
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 320 12250 12257 "nanoParse.ml" 320 12250 12274
+)
+"nanoParse.ml" 322 12341 12390 "nanoParse.ml" 322 12341 12391
+type(
+  int
+)
+"nanoParse.ml" 322 12341 12355 "nanoParse.ml" 322 12341 12391
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 398 15141 15148 "nanoParse.ml" 398 15141 15165
+)
+"nanoParse.ml" 400 15232 15281 "nanoParse.ml" 400 15232 15282
+type(
+  int
+)
+"nanoParse.ml" 400 15232 15246 "nanoParse.ml" 400 15232 15282
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 323 12404 12408 "nanoParse.ml" 323 12404 12416
+=======
+"nanoParse.ml" 401 15295 15299 "nanoParse.ml" 401 15295 15307
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 54 12439 12484 "nanoParse.mly" 54 12439 12486
+=======
+"nanoParse.mly" 58 15330 15375 "nanoParse.mly" 58 15330 15377
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 321 12278 12286 "nanoParse.ml" 321 12278 12288
+)
+"nanoParse.mly" 54 12439 12487 "nanoParse.mly" 54 12439 12489
+=======
+  int_ref _1 "nanoParse.ml" 399 15169 15177 "nanoParse.ml" 399 15169 15179
+)
+"nanoParse.mly" 58 15330 15378 "nanoParse.mly" 58 15330 15380
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _2 "nanoParse.ml" 322 12341 12349 "nanoParse.ml" 322 12341 12351
+)
+"nanoParse.mly" 54 12439 12478 "nanoParse.mly" 54 12439 12492
+=======
+  int_ref _2 "nanoParse.ml" 400 15232 15240 "nanoParse.ml" 400 15232 15242
+)
+"nanoParse.mly" 58 15330 15369 "nanoParse.mly" 58 15330 15383
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 323 12404 12408 "nanoParse.ml" 327 12514 12537
+type(
+  Obj.t
+)
+"nanoParse.ml" 322 12341 12345 "nanoParse.ml" 327 12514 12537
+type(
+  Obj.t
+)
+"nanoParse.ml" 321 12278 12282 "nanoParse.ml" 327 12514 12537
+type(
+  Obj.t
+)
+"nanoParse.ml" 320 12250 12252 "nanoParse.ml" 327 12514 12538
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 328 12539 12546 "nanoParse.ml" 328 12539 12563
+=======
+"nanoParse.ml" 401 15295 15299 "nanoParse.ml" 405 15405 15428
+type(
+  Obj.t
+)
+"nanoParse.ml" 400 15232 15236 "nanoParse.ml" 405 15405 15428
+type(
+  Obj.t
+)
+"nanoParse.ml" 399 15169 15173 "nanoParse.ml" 405 15405 15428
+type(
+  Obj.t
+)
+"nanoParse.ml" 398 15141 15143 "nanoParse.ml" 405 15405 15429
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 406 15430 15437 "nanoParse.ml" 406 15430 15454
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 329 12567 12571 "nanoParse.ml" 334 12732 12755
+)
+"nanoParse.ml" 329 12567 12575 "nanoParse.ml" 329 12567 12577
+=======
+  def __caml_parser_env "nanoParse.ml" 407 15458 15462 "nanoParse.ml" 412 15623 15646
+)
+"nanoParse.ml" 407 15458 15466 "nanoParse.ml" 407 15458 15468
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 330 12630 12634 "nanoParse.ml" 334 12732 12755
+)
+"nanoParse.ml" 329 12567 12581 "nanoParse.ml" 329 12567 12597
+=======
+  def _1 "nanoParse.ml" 408 15521 15525 "nanoParse.ml" 412 15623 15646
+)
+"nanoParse.ml" 407 15458 15472 "nanoParse.ml" 407 15458 15488
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 329 12567 12598 "nanoParse.ml" 329 12567 12615
+=======
+"nanoParse.ml" 407 15458 15489 "nanoParse.ml" 407 15458 15506
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 328 12539 12546 "nanoParse.ml" 328 12539 12563
+)
+"nanoParse.ml" 329 12567 12616 "nanoParse.ml" 329 12567 12617
+type(
+  int
+)
+"nanoParse.ml" 329 12567 12581 "nanoParse.ml" 329 12567 12617
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 406 15430 15437 "nanoParse.ml" 406 15430 15454
+)
+"nanoParse.ml" 407 15458 15507 "nanoParse.ml" 407 15458 15508
+type(
+  int
+)
+"nanoParse.ml" 407 15458 15472 "nanoParse.ml" 407 15458 15508
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 330 12630 12634 "nanoParse.ml" 330 12630 12642
+=======
+"nanoParse.ml" 408 15521 15525 "nanoParse.ml" 408 15521 15533
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 55 12665 12704 "nanoParse.mly" 55 12665 12710
+=======
+"nanoParse.mly" 59 15556 15595 "nanoParse.mly" 59 15556 15601
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 329 12567 12575 "nanoParse.ml" 329 12567 12577
+)
+"nanoParse.ml" 330 12630 12634 "nanoParse.ml" 334 12732 12755
+type(
+  Obj.t
+)
+"nanoParse.ml" 329 12567 12571 "nanoParse.ml" 334 12732 12755
+type(
+  Obj.t
+)
+"nanoParse.ml" 328 12539 12541 "nanoParse.ml" 334 12732 12756
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 335 12757 12764 "nanoParse.ml" 335 12757 12781
+=======
+  int_ref _1 "nanoParse.ml" 407 15458 15466 "nanoParse.ml" 407 15458 15468
+)
+"nanoParse.ml" 408 15521 15525 "nanoParse.ml" 412 15623 15646
+type(
+  Obj.t
+)
+"nanoParse.ml" 407 15458 15462 "nanoParse.ml" 412 15623 15646
+type(
+  Obj.t
+)
+"nanoParse.ml" 406 15430 15432 "nanoParse.ml" 412 15623 15647
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 413 15648 15655 "nanoParse.ml" 413 15648 15672
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 336 12785 12789 "nanoParse.ml" 341 12954 12977
+)
+"nanoParse.ml" 336 12785 12793 "nanoParse.ml" 336 12785 12795
+=======
+  def __caml_parser_env "nanoParse.ml" 414 15676 15680 "nanoParse.ml" 419 15845 15868
+)
+"nanoParse.ml" 414 15676 15684 "nanoParse.ml" 414 15676 15686
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 337 12846 12850 "nanoParse.ml" 341 12954 12977
+)
+"nanoParse.ml" 336 12785 12799 "nanoParse.ml" 336 12785 12815
+=======
+  def _1 "nanoParse.ml" 415 15737 15741 "nanoParse.ml" 419 15845 15868
+)
+"nanoParse.ml" 414 15676 15690 "nanoParse.ml" 414 15676 15706
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> int
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 336 12785 12816 "nanoParse.ml" 336 12785 12833
+=======
+"nanoParse.ml" 414 15676 15707 "nanoParse.ml" 414 15676 15724
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 335 12757 12764 "nanoParse.ml" 335 12757 12781
+)
+"nanoParse.ml" 336 12785 12834 "nanoParse.ml" 336 12785 12835
+type(
+  int
+)
+"nanoParse.ml" 336 12785 12799 "nanoParse.ml" 336 12785 12835
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 413 15648 15655 "nanoParse.ml" 413 15648 15672
+)
+"nanoParse.ml" 414 15676 15725 "nanoParse.ml" 414 15676 15726
+type(
+  int
+)
+"nanoParse.ml" 414 15676 15690 "nanoParse.ml" 414 15676 15726
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int
+)
+type(
+  int
+)
+<<<<<<< HEAD
+"nanoParse.ml" 337 12846 12850 "nanoParse.ml" 337 12846 12858
+=======
+"nanoParse.ml" 415 15737 15741 "nanoParse.ml" 415 15737 15749
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 57 12881 12928 "nanoParse.mly" 57 12881 12930
+=======
+"nanoParse.mly" 61 15772 15819 "nanoParse.mly" 61 15772 15821
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 336 12785 12793 "nanoParse.ml" 336 12785 12795
+)
+"nanoParse.mly" 57 12881 12920 "nanoParse.mly" 57 12881 12932
+=======
+  int_ref _1 "nanoParse.ml" 414 15676 15684 "nanoParse.ml" 414 15676 15686
+)
+"nanoParse.mly" 61 15772 15811 "nanoParse.mly" 61 15772 15823
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 337 12846 12850 "nanoParse.ml" 341 12954 12977
+type(
+  Obj.t
+)
+"nanoParse.ml" 336 12785 12789 "nanoParse.ml" 341 12954 12977
+type(
+  Obj.t
+)
+"nanoParse.ml" 335 12757 12759 "nanoParse.ml" 341 12954 12978
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 342 12979 12986 "nanoParse.ml" 342 12979 13003
+=======
+"nanoParse.ml" 415 15737 15741 "nanoParse.ml" 419 15845 15868
+type(
+  Obj.t
+)
+"nanoParse.ml" 414 15676 15680 "nanoParse.ml" 419 15845 15868
+type(
+  Obj.t
+)
+"nanoParse.ml" 413 15648 15650 "nanoParse.ml" 419 15845 15869
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 420 15870 15877 "nanoParse.ml" 420 15870 15894
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 343 13007 13011 "nanoParse.ml" 347 13111 13134
+)
+"nanoParse.ml" 343 13007 13011 "nanoParse.ml" 343 13007 13019
+=======
+  def __caml_parser_env "nanoParse.ml" 421 15898 15902 "nanoParse.ml" 425 16002 16025
+)
+"nanoParse.ml" 421 15898 15902 "nanoParse.ml" 421 15898 15910
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 59 13042 13081 "nanoParse.mly" 59 13042 13089
+=======
+"nanoParse.mly" 63 15933 15972 "nanoParse.mly" 63 15933 15980
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 343 13007 13011 "nanoParse.ml" 347 13111 13134
+type(
+  Obj.t
+)
+"nanoParse.ml" 342 12979 12981 "nanoParse.ml" 347 13111 13135
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 348 13136 13143 "nanoParse.ml" 348 13136 13160
+=======
+"nanoParse.ml" 421 15898 15902 "nanoParse.ml" 425 16002 16025
+type(
+  Obj.t
+)
+"nanoParse.ml" 420 15870 15872 "nanoParse.ml" 425 16002 16026
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 426 16027 16034 "nanoParse.ml" 426 16027 16051
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 349 13164 13168 "nanoParse.ml" 353 13269 13292
+)
+"nanoParse.ml" 349 13164 13168 "nanoParse.ml" 349 13164 13176
+=======
+  def __caml_parser_env "nanoParse.ml" 427 16055 16059 "nanoParse.ml" 431 16160 16183
+)
+"nanoParse.ml" 427 16055 16059 "nanoParse.ml" 427 16055 16067
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 60 13199 13238 "nanoParse.mly" 60 13199 13247
+=======
+"nanoParse.mly" 64 16090 16129 "nanoParse.mly" 64 16090 16138
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 349 13164 13168 "nanoParse.ml" 353 13269 13292
+type(
+  Obj.t
+)
+"nanoParse.ml" 348 13136 13138 "nanoParse.ml" 353 13269 13293
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 354 13294 13301 "nanoParse.ml" 354 13294 13318
+=======
+"nanoParse.ml" 427 16055 16059 "nanoParse.ml" 431 16160 16183
+type(
+  Obj.t
+)
+"nanoParse.ml" 426 16027 16029 "nanoParse.ml" 431 16160 16184
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 432 16185 16192 "nanoParse.ml" 432 16185 16209
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 355 13322 13326 "nanoParse.ml" 360 13493 13516
+)
+"nanoParse.ml" 355 13322 13330 "nanoParse.ml" 355 13322 13332
+=======
+  def __caml_parser_env "nanoParse.ml" 433 16213 16217 "nanoParse.ml" 438 16384 16407
+)
+"nanoParse.ml" 433 16213 16221 "nanoParse.ml" 433 16213 16223
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 356 13386 13390 "nanoParse.ml" 360 13493 13516
+)
+"nanoParse.ml" 355 13322 13336 "nanoParse.ml" 355 13322 13352
+=======
+  def _1 "nanoParse.ml" 434 16277 16281 "nanoParse.ml" 438 16384 16407
+)
+"nanoParse.ml" 433 16213 16227 "nanoParse.ml" 433 16213 16243
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 355 13322 13353 "nanoParse.ml" 355 13322 13370
+=======
+"nanoParse.ml" 433 16213 16244 "nanoParse.ml" 433 16213 16261
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 354 13294 13301 "nanoParse.ml" 354 13294 13318
+)
+"nanoParse.ml" 355 13322 13371 "nanoParse.ml" 355 13322 13372
+type(
+  int
+)
+"nanoParse.ml" 355 13322 13336 "nanoParse.ml" 355 13322 13372
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 432 16185 16192 "nanoParse.ml" 432 16185 16209
+)
+"nanoParse.ml" 433 16213 16262 "nanoParse.ml" 433 16213 16263
+type(
+  int
+)
+"nanoParse.ml" 433 16213 16227 "nanoParse.ml" 433 16213 16263
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+type(
+  string
+)
+<<<<<<< HEAD
+"nanoParse.ml" 356 13386 13390 "nanoParse.ml" 356 13386 13398
+=======
+"nanoParse.ml" 434 16277 16281 "nanoParse.ml" 434 16277 16289
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 61 13421 13465 "nanoParse.mly" 61 13421 13469
+=======
+"nanoParse.mly" 65 16312 16356 "nanoParse.mly" 65 16312 16360
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 355 13322 13330 "nanoParse.ml" 355 13322 13332
+)
+"nanoParse.mly" 61 13421 13460 "nanoParse.mly" 61 13421 13471
+=======
+  int_ref _1 "nanoParse.ml" 433 16213 16221 "nanoParse.ml" 433 16213 16223
+)
+"nanoParse.mly" 65 16312 16351 "nanoParse.mly" 65 16312 16362
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 356 13386 13390 "nanoParse.ml" 360 13493 13516
+type(
+  Obj.t
+)
+"nanoParse.ml" 355 13322 13326 "nanoParse.ml" 360 13493 13516
+type(
+  Obj.t
+)
+"nanoParse.ml" 354 13294 13296 "nanoParse.ml" 360 13493 13517
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 361 13518 13525 "nanoParse.ml" 361 13518 13542
+=======
+"nanoParse.ml" 434 16277 16281 "nanoParse.ml" 438 16384 16407
+type(
+  Obj.t
+)
+"nanoParse.ml" 433 16213 16217 "nanoParse.ml" 438 16384 16407
+type(
+  Obj.t
+)
+"nanoParse.ml" 432 16185 16187 "nanoParse.ml" 438 16384 16408
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 439 16409 16416 "nanoParse.ml" 439 16409 16433
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 362 13546 13550 "nanoParse.ml" 367 13715 13738
+)
+"nanoParse.ml" 362 13546 13554 "nanoParse.ml" 362 13546 13556
+=======
+  def __caml_parser_env "nanoParse.ml" 440 16437 16441 "nanoParse.ml" 445 16606 16629
+)
+"nanoParse.ml" 440 16437 16445 "nanoParse.ml" 440 16437 16447
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _2 "nanoParse.ml" 363 13613 13617 "nanoParse.ml" 367 13715 13738
+)
+"nanoParse.ml" 362 13546 13560 "nanoParse.ml" 362 13546 13576
+=======
+  def _2 "nanoParse.ml" 441 16504 16508 "nanoParse.ml" 445 16606 16629
+)
+"nanoParse.ml" 440 16437 16451 "nanoParse.ml" 440 16437 16467
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 362 13546 13577 "nanoParse.ml" 362 13546 13594
+=======
+"nanoParse.ml" 440 16437 16468 "nanoParse.ml" 440 16437 16485
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 361 13518 13525 "nanoParse.ml" 361 13518 13542
+)
+"nanoParse.ml" 362 13546 13595 "nanoParse.ml" 362 13546 13596
+type(
+  int
+)
+"nanoParse.ml" 362 13546 13560 "nanoParse.ml" 362 13546 13596
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 439 16409 16416 "nanoParse.ml" 439 16409 16433
+)
+"nanoParse.ml" 440 16437 16486 "nanoParse.ml" 440 16437 16487
+type(
+  int
+)
+"nanoParse.ml" 440 16437 16451 "nanoParse.ml" 440 16437 16487
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 363 13613 13617 "nanoParse.ml" 363 13613 13625
+=======
+"nanoParse.ml" 441 16504 16508 "nanoParse.ml" 441 16504 16516
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 63 13648 13687 "nanoParse.mly" 63 13648 13693
+=======
+"nanoParse.mly" 67 16539 16578 "nanoParse.mly" 67 16539 16584
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _2 "nanoParse.ml" 362 13546 13554 "nanoParse.ml" 362 13546 13556
+)
+"nanoParse.ml" 363 13613 13617 "nanoParse.ml" 367 13715 13738
+type(
+  Obj.t
+)
+"nanoParse.ml" 362 13546 13550 "nanoParse.ml" 367 13715 13738
+type(
+  Obj.t
+)
+"nanoParse.ml" 361 13518 13520 "nanoParse.ml" 367 13715 13739
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 368 13740 13747 "nanoParse.ml" 368 13740 13764
+=======
+  int_ref _2 "nanoParse.ml" 440 16437 16445 "nanoParse.ml" 440 16437 16447
+)
+"nanoParse.ml" 441 16504 16508 "nanoParse.ml" 445 16606 16629
+type(
+  Obj.t
+)
+"nanoParse.ml" 440 16437 16441 "nanoParse.ml" 445 16606 16629
+type(
+  Obj.t
+)
+"nanoParse.ml" 439 16409 16411 "nanoParse.ml" 445 16606 16630
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 446 16631 16638 "nanoParse.ml" 446 16631 16655
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 369 13768 13772 "nanoParse.ml" 374 13958 13983
+)
+"nanoParse.ml" 369 13768 13776 "nanoParse.ml" 369 13768 13778
+=======
+  def __caml_parser_env "nanoParse.ml" 447 16659 16663 "nanoParse.ml" 452 16849 16874
+)
+"nanoParse.ml" 447 16659 16667 "nanoParse.ml" 447 16659 16669
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 370 13835 13839 "nanoParse.ml" 374 13958 13983
+)
+"nanoParse.ml" 369 13768 13782 "nanoParse.ml" 369 13768 13798
+=======
+  def _1 "nanoParse.ml" 448 16726 16730 "nanoParse.ml" 452 16849 16874
+)
+"nanoParse.ml" 447 16659 16673 "nanoParse.ml" 447 16659 16689
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 369 13768 13799 "nanoParse.ml" 369 13768 13816
+=======
+"nanoParse.ml" 447 16659 16690 "nanoParse.ml" 447 16659 16707
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 368 13740 13747 "nanoParse.ml" 368 13740 13764
+)
+"nanoParse.ml" 369 13768 13817 "nanoParse.ml" 369 13768 13818
+type(
+  int
+)
+"nanoParse.ml" 369 13768 13782 "nanoParse.ml" 369 13768 13818
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 446 16631 16638 "nanoParse.ml" 446 16631 16655
+)
+"nanoParse.ml" 447 16659 16708 "nanoParse.ml" 447 16659 16709
+type(
+  int
+)
+"nanoParse.ml" 447 16659 16673 "nanoParse.ml" 447 16659 16709
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 370 13835 13839 "nanoParse.ml" 370 13835 13847
+=======
+"nanoParse.ml" 448 16726 16730 "nanoParse.ml" 448 16726 16738
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 65 13870 13911 "nanoParse.mly" 65 13870 13923
+=======
+"nanoParse.mly" 69 16761 16802 "nanoParse.mly" 69 16761 16814
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Nano.expr -> Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref consAtTheEnd "nanoParse.mly" 6 384 392 "nanoParse.mly" 6 384 404
+)
+"nanoParse.mly" 65 13870 13924 "nanoParse.mly" 65 13870 13931
+type(
+  Nano.expr
+)
+"nanoParse.mly" 65 13870 13932 "nanoParse.mly" 65 13870 13934
+=======
+  int_ref consAtTheEnd "nanoParse.mly" 6 456 464 "nanoParse.mly" 6 456 476
+)
+"nanoParse.mly" 69 16761 16815 "nanoParse.mly" 69 16761 16822
+type(
+  Nano.expr
+)
+"nanoParse.mly" 69 16761 16823 "nanoParse.mly" 69 16761 16825
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 369 13768 13776 "nanoParse.ml" 369 13768 13778
+=======
+  int_ref _1 "nanoParse.ml" 447 16659 16667 "nanoParse.ml" 447 16659 16669
+)
+"nanoParse.mly" 69 16761 16800 "nanoParse.mly" 69 16761 16827
+call(
+  tail
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+)
+"nanoParse.mly" 65 13870 13909 "nanoParse.mly" 65 13870 13936
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 370 13835 13839 "nanoParse.ml" 374 13958 13983
+type(
+  Obj.t
+)
+"nanoParse.ml" 369 13768 13772 "nanoParse.ml" 374 13958 13983
+type(
+  Obj.t
+)
+"nanoParse.ml" 368 13740 13742 "nanoParse.ml" 374 13958 13984
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 375 13985 13992 "nanoParse.ml" 375 13985 14009
+=======
+"nanoParse.ml" 448 16726 16730 "nanoParse.ml" 452 16849 16874
+type(
+  Obj.t
+)
+"nanoParse.ml" 447 16659 16663 "nanoParse.ml" 452 16849 16874
+type(
+  Obj.t
+)
+"nanoParse.ml" 446 16631 16633 "nanoParse.ml" 452 16849 16875
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 453 16876 16883 "nanoParse.ml" 453 16876 16900
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 376 14013 14017 "nanoParse.ml" 382 14268 14293
+)
+"nanoParse.ml" 376 14013 14021 "nanoParse.ml" 376 14013 14023
+=======
+  def __caml_parser_env "nanoParse.ml" 454 16904 16908 "nanoParse.ml" 460 17159 17184
+)
+"nanoParse.ml" 454 16904 16912 "nanoParse.ml" 454 16904 16914
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _1 "nanoParse.ml" 377 14078 14082 "nanoParse.ml" 382 14268 14293
+)
+"nanoParse.ml" 376 14013 14027 "nanoParse.ml" 376 14013 14043
+=======
+  def _1 "nanoParse.ml" 455 16969 16973 "nanoParse.ml" 460 17159 17184
+)
+"nanoParse.ml" 454 16904 16918 "nanoParse.ml" 454 16904 16934
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 376 14013 14044 "nanoParse.ml" 376 14013 14061
+=======
+"nanoParse.ml" 454 16904 16935 "nanoParse.ml" 454 16904 16952
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 375 13985 13992 "nanoParse.ml" 375 13985 14009
+)
+"nanoParse.ml" 376 14013 14062 "nanoParse.ml" 376 14013 14063
+type(
+  int
+)
+"nanoParse.ml" 376 14013 14027 "nanoParse.ml" 376 14013 14063
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 453 16876 16883 "nanoParse.ml" 453 16876 16900
+)
+"nanoParse.ml" 454 16904 16953 "nanoParse.ml" 454 16904 16954
+type(
+  int
+)
+"nanoParse.ml" 454 16904 16918 "nanoParse.ml" 454 16904 16954
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 377 14078 14086 "nanoParse.ml" 377 14078 14088
+=======
+"nanoParse.ml" 455 16969 16977 "nanoParse.ml" 455 16969 16979
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def _3 "nanoParse.ml" 378 14145 14149 "nanoParse.ml" 382 14268 14293
+)
+"nanoParse.ml" 377 14078 14092 "nanoParse.ml" 377 14078 14108
+=======
+  def _3 "nanoParse.ml" 456 17036 17040 "nanoParse.ml" 460 17159 17184
+)
+"nanoParse.ml" 455 16969 16983 "nanoParse.ml" 455 16969 16999
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Nano.expr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 377 14078 14109 "nanoParse.ml" 377 14078 14126
+=======
+"nanoParse.ml" 455 16969 17000 "nanoParse.ml" 455 16969 17017
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 375 13985 13992 "nanoParse.ml" 375 13985 14009
+)
+"nanoParse.ml" 377 14078 14127 "nanoParse.ml" 377 14078 14128
+type(
+  int
+)
+"nanoParse.ml" 377 14078 14092 "nanoParse.ml" 377 14078 14128
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 453 16876 16883 "nanoParse.ml" 453 16876 16900
+)
+"nanoParse.ml" 455 16969 17018 "nanoParse.ml" 455 16969 17019
+type(
+  int
+)
+"nanoParse.ml" 455 16969 16983 "nanoParse.ml" 455 16969 17019
+call(
+  stack
+)
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 378 14145 14149 "nanoParse.ml" 378 14145 14157
+=======
+"nanoParse.ml" 456 17036 17040 "nanoParse.ml" 456 17036 17048
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+<<<<<<< HEAD
+"nanoParse.mly" 66 14180 14221 "nanoParse.mly" 66 14180 14233
+=======
+"nanoParse.mly" 70 17071 17112 "nanoParse.mly" 70 17071 17124
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr -> Nano.expr -> Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref consAtTheEnd "nanoParse.mly" 6 384 392 "nanoParse.mly" 6 384 404
+)
+"nanoParse.mly" 66 14180 14234 "nanoParse.mly" 66 14180 14236
+=======
+  int_ref consAtTheEnd "nanoParse.mly" 6 456 464 "nanoParse.mly" 6 456 476
+)
+"nanoParse.mly" 70 17071 17125 "nanoParse.mly" 70 17071 17127
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _1 "nanoParse.ml" 376 14013 14021 "nanoParse.ml" 376 14013 14023
+)
+"nanoParse.mly" 66 14180 14242 "nanoParse.mly" 66 14180 14244
+=======
+  int_ref _1 "nanoParse.ml" 454 16904 16912 "nanoParse.ml" 454 16904 16914
+)
+"nanoParse.mly" 70 17071 17133 "nanoParse.mly" 70 17071 17135
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  int_ref _3 "nanoParse.ml" 377 14078 14086 "nanoParse.ml" 377 14078 14088
+=======
+  int_ref _3 "nanoParse.ml" 455 16969 16977 "nanoParse.ml" 455 16969 16979
+)
+"nanoParse.mly" 70 17071 17110 "nanoParse.mly" 70 17071 17137
+call(
+  tail
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+)
+"nanoParse.mly" 66 14180 14219 "nanoParse.mly" 66 14180 14246
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)
+<<<<<<< HEAD
+"nanoParse.ml" 378 14145 14149 "nanoParse.ml" 382 14268 14293
+type(
+  Obj.t
+)
+"nanoParse.ml" 377 14078 14082 "nanoParse.ml" 382 14268 14293
+type(
+  Obj.t
+)
+"nanoParse.ml" 376 14013 14017 "nanoParse.ml" 382 14268 14293
+type(
+  Obj.t
+)
+"nanoParse.ml" 375 13985 13987 "nanoParse.ml" 382 14268 14294
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 384 14311 14318 "nanoParse.ml" 384 14311 14335
+=======
+"nanoParse.ml" 456 17036 17040 "nanoParse.ml" 460 17159 17184
+type(
+  Obj.t
+)
+"nanoParse.ml" 455 16969 16973 "nanoParse.ml" 460 17159 17184
+type(
+  Obj.t
+)
+"nanoParse.ml" 454 16904 16908 "nanoParse.ml" 460 17159 17184
+type(
+  Obj.t
+)
+"nanoParse.ml" 453 16876 16878 "nanoParse.ml" 460 17159 17185
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 462 17202 17209 "nanoParse.ml" 462 17202 17226
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  def __caml_parser_env "nanoParse.ml" 384 14311 14339 "nanoParse.ml" 384 14311 14400
+)
+"nanoParse.ml" 384 14311 14339 "nanoParse.ml" 384 14311 14344
+=======
+  def __caml_parser_env "nanoParse.ml" 462 17202 17230 "nanoParse.ml" 462 17202 17291
+)
+"nanoParse.ml" 462 17202 17230 "nanoParse.ml" 462 17202 17235
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  exn -> Obj.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+<<<<<<< HEAD
+"nanoParse.ml" 384 14311 14362 "nanoParse.ml" 384 14311 14378
+=======
+"nanoParse.ml" 462 17202 17253 "nanoParse.ml" 462 17202 17269
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env -> int -> Obj.t
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+<<<<<<< HEAD
+"nanoParse.ml" 384 14311 14379 "nanoParse.ml" 384 14311 14396
+=======
+"nanoParse.ml" 462 17202 17270 "nanoParse.ml" 462 17202 17287
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parser_env
+)
+ident(
+<<<<<<< HEAD
+  int_ref __caml_parser_env "nanoParse.ml" 384 14311 14318 "nanoParse.ml" 384 14311 14335
+)
+"nanoParse.ml" 384 14311 14397 "nanoParse.ml" 384 14311 14398
+type(
+  int
+)
+"nanoParse.ml" 384 14311 14361 "nanoParse.ml" 384 14311 14399
+type(
+  Obj.t
+)
+"nanoParse.ml" 384 14311 14345 "nanoParse.ml" 384 14311 14400
+type(
+  exn
+)
+"nanoParse.ml" 384 14311 14339 "nanoParse.ml" 384 14311 14400
+type(
+  Obj.t
+)
+"nanoParse.ml" 384 14311 14313 "nanoParse.ml" 384 14311 14401
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 205 8329 8341 "nanoParse.ml" 385 14402 14404
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+"nanoParse.ml" 386 14405 14409 "nanoParse.ml" 386 14405 14417
+=======
+  int_ref __caml_parser_env "nanoParse.ml" 462 17202 17209 "nanoParse.ml" 462 17202 17226
+)
+"nanoParse.ml" 462 17202 17288 "nanoParse.ml" 462 17202 17289
+type(
+  int
+)
+"nanoParse.ml" 462 17202 17252 "nanoParse.ml" 462 17202 17290
+call(
+  stack
+)
+type(
+  Obj.t
+)
+"nanoParse.ml" 462 17202 17236 "nanoParse.ml" 462 17202 17291
+type(
+  exn
+)
+"nanoParse.ml" 462 17202 17230 "nanoParse.ml" 462 17202 17291
+type(
+  Obj.t
+)
+"nanoParse.ml" 462 17202 17204 "nanoParse.ml" 462 17202 17292
+type(
+  Parsing.parser_env -> Obj.t
+)
+"nanoParse.ml" 257 10185 10197 "nanoParse.ml" 463 17293 17295
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+"nanoParse.ml" 464 17296 17300 "nanoParse.ml" 464 17296 17308
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parse_tables
+)
+ident(
+<<<<<<< HEAD
+  def yytables "nanoParse.ml" 403 14926 14926 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 387 14420 14440 "nanoParse.ml" 387 14420 14445
+=======
+  def yytables "nanoParse.ml" 481 17817 17817 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 465 17311 17331 "nanoParse.ml" 465 17311 17336
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+<<<<<<< HEAD
+  int_ref yyact "nanoParse.ml" 205 8329 8333 "nanoParse.ml" 205 8329 8338
+)
+"nanoParse.ml" 388 14447 14472 "nanoParse.ml" 388 14447 14486
+=======
+  int_ref yyact "nanoParse.ml" 257 10185 10189 "nanoParse.ml" 257 10185 10194
+)
+"nanoParse.ml" 466 17338 17363 "nanoParse.ml" 466 17338 17377
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int array
+)
+ident(
+<<<<<<< HEAD
+  int_ref yytransl_const "nanoParse.ml" 31 541 545 "nanoParse.ml" 31 541 559
+)
+"nanoParse.ml" 389 14488 14513 "nanoParse.ml" 389 14488 14527
+=======
+  int_ref yytransl_const "nanoParse.ml" 41 613 617 "nanoParse.ml" 41 613 631
+)
+"nanoParse.ml" 467 17379 17404 "nanoParse.ml" 467 17379 17418
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int array
+)
+ident(
+<<<<<<< HEAD
+  int_ref yytransl_block "nanoParse.ml" 49 844 848 "nanoParse.ml" 49 844 862
+)
+"nanoParse.ml" 390 14529 14545 "nanoParse.ml" 390 14529 14550
+=======
+  int_ref yytransl_block "nanoParse.ml" 69 1088 1092 "nanoParse.ml" 69 1088 1106
+)
+"nanoParse.ml" 468 17420 17436 "nanoParse.ml" 468 17420 17441
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yylhs "nanoParse.ml" 54 910 914 "nanoParse.ml" 54 910 919
+)
+"nanoParse.ml" 391 14552 14568 "nanoParse.ml" 391 14552 14573
+=======
+  int_ref yylhs "nanoParse.ml" 74 1154 1158 "nanoParse.ml" 74 1154 1163
+)
+"nanoParse.ml" 469 17443 17459 "nanoParse.ml" 469 17443 17464
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yylen "nanoParse.ml" 60 1142 1146 "nanoParse.ml" 60 1142 1151
+)
+"nanoParse.ml" 392 14575 14594 "nanoParse.ml" 392 14575 14602
+=======
+  int_ref yylen "nanoParse.ml" 80 1410 1414 "nanoParse.ml" 80 1410 1419
+)
+"nanoParse.ml" 470 17466 17485 "nanoParse.ml" 470 17466 17493
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yydefred "nanoParse.ml" 66 1374 1378 "nanoParse.ml" 66 1374 1386
+)
+"nanoParse.ml" 393 14604 14622 "nanoParse.ml" 393 14604 14629
+=======
+  int_ref yydefred "nanoParse.ml" 86 1666 1670 "nanoParse.ml" 86 1666 1678
+)
+"nanoParse.ml" 471 17495 17513 "nanoParse.ml" 471 17495 17520
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yydgoto "nanoParse.ml" 73 1715 1719 "nanoParse.ml" 73 1715 1726
+)
+"nanoParse.ml" 394 14631 14650 "nanoParse.ml" 394 14631 14658
+=======
+  int_ref yydgoto "nanoParse.ml" 95 2139 2143 "nanoParse.ml" 95 2139 2150
+)
+"nanoParse.ml" 472 17522 17541 "nanoParse.ml" 472 17522 17549
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yysindex "nanoParse.ml" 77 1833 1837 "nanoParse.ml" 77 1833 1845
+)
+"nanoParse.ml" 395 14660 14679 "nanoParse.ml" 395 14660 14687
+=======
+  int_ref yysindex "nanoParse.ml" 99 2257 2261 "nanoParse.ml" 99 2257 2269
+)
+"nanoParse.ml" 473 17551 17570 "nanoParse.ml" 473 17551 17578
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yyrindex "nanoParse.ml" 84 2174 2178 "nanoParse.ml" 84 2174 2186
+)
+"nanoParse.ml" 396 14689 14708 "nanoParse.ml" 396 14689 14716
+=======
+  int_ref yyrindex "nanoParse.ml" 108 2730 2734 "nanoParse.ml" 108 2730 2742
+)
+"nanoParse.ml" 474 17580 17599 "nanoParse.ml" 474 17580 17607
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yygindex "nanoParse.ml" 91 2515 2519 "nanoParse.ml" 91 2515 2527
+)
+"nanoParse.ml" 397 14718 14740 "nanoParse.ml" 397 14718 14751
+=======
+  int_ref yygindex "nanoParse.ml" 117 3203 3207 "nanoParse.ml" 117 3203 3215
+)
+"nanoParse.ml" 475 17609 17631 "nanoParse.ml" 475 17609 17642
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  int
+)
+ident(
+<<<<<<< HEAD
+  int_ref yytablesize "nanoParse.ml" 95 2634 2638 "nanoParse.ml" 95 2634 2649
+)
+"nanoParse.ml" 398 14753 14771 "nanoParse.ml" 398 14753 14778
+=======
+  int_ref yytablesize "nanoParse.ml" 121 3322 3326 "nanoParse.ml" 121 3322 3337
+)
+"nanoParse.ml" 476 17644 17662 "nanoParse.ml" 476 17644 17669
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yytable "nanoParse.ml" 96 2656 2660 "nanoParse.ml" 96 2656 2667
+)
+"nanoParse.ml" 399 14780 14798 "nanoParse.ml" 399 14780 14805
+=======
+  int_ref yytable "nanoParse.ml" 122 3344 3348 "nanoParse.ml" 122 3344 3355
+)
+"nanoParse.ml" 477 17671 17689 "nanoParse.ml" 477 17671 17696
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yycheck "nanoParse.ml" 139 5364 5368 "nanoParse.ml" 139 5364 5375
+)
+"nanoParse.ml" 400 14807 14834 "nanoParse.ml" 400 14807 14845
+=======
+  int_ref yycheck "nanoParse.ml" 173 6580 6584 "nanoParse.ml" 173 6580 6591
+)
+"nanoParse.ml" 478 17698 17725 "nanoParse.ml" 478 17698 17736
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string -> unit
+)
+ident(
+  ext_ref Parsing.parse_error
+)
+<<<<<<< HEAD
+"nanoParse.ml" 401 14847 14871 "nanoParse.ml" 401 14847 14884
+=======
+"nanoParse.ml" 479 17738 17762 "nanoParse.ml" 479 17738 17775
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yynames_const "nanoParse.ml" 182 8072 8076 "nanoParse.ml" 182 8072 8089
+)
+"nanoParse.ml" 402 14886 14910 "nanoParse.ml" 402 14886 14923
+=======
+  int_ref yynames_const "nanoParse.ml" 224 9816 9820 "nanoParse.ml" 224 9816 9833
+)
+"nanoParse.ml" 480 17777 17801 "nanoParse.ml" 480 17777 17814
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  string
+)
+ident(
+<<<<<<< HEAD
+  int_ref yynames_block "nanoParse.ml" 200 8280 8284 "nanoParse.ml" 200 8280 8297
+)
+"nanoParse.ml" 387 14420 14422 "nanoParse.ml" 402 14886 14925
+type(
+  Parsing.parse_tables
+)
+"nanoParse.ml" 403 14926 14930 "nanoParse.ml" 403 14926 14933
+=======
+  int_ref yynames_block "nanoParse.ml" 252 10136 10140 "nanoParse.ml" 252 10136 10153
+)
+"nanoParse.ml" 465 17311 17313 "nanoParse.ml" 480 17777 17816
+type(
+  Parsing.parse_tables
+)
+"nanoParse.ml" 481 17817 17821 "nanoParse.ml" 481 17817 17824
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Nano.expr
+)
+ident(
+<<<<<<< HEAD
+  def exp "nanoParse.ml" 404 14995 15052 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 403 14926 14935 "nanoParse.ml" 403 14926 14941
+=======
+  def exp "nanoParse.ml" 482 17886 17943 "nanoParse.ml" 1 0 -1
+)
+"nanoParse.ml" 481 17817 17826 "nanoParse.ml" 481 17817 17832
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+<<<<<<< HEAD
+  def lexfun "nanoParse.ml" 403 14926 14968 "nanoParse.ml" 404 14995 15052
+)
+"nanoParse.ml" 403 14926 14969 "nanoParse.ml" 403 14926 14975
+=======
+  def lexfun "nanoParse.ml" 481 17817 17859 "nanoParse.ml" 482 17886 17943
+)
+"nanoParse.ml" 481 17817 17860 "nanoParse.ml" 481 17817 17866
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Lexing.lexbuf
+)
+ident(
+<<<<<<< HEAD
+  def lexbuf "nanoParse.ml" 404 14995 14998 "nanoParse.ml" 404 14995 15052
+)
+"nanoParse.ml" 404 14995 14999 "nanoParse.ml" 404 14995 15014
+=======
+  def lexbuf "nanoParse.ml" 482 17886 17889 "nanoParse.ml" 482 17886 17943
+)
+"nanoParse.ml" 482 17886 17890 "nanoParse.ml" 482 17886 17905
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parse_tables ->
+  int -> (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Nano.expr
+)
+ident(
+  ext_ref Parsing.yyparse
+)
+<<<<<<< HEAD
+"nanoParse.ml" 404 14995 15015 "nanoParse.ml" 404 14995 15023
+=======
+"nanoParse.ml" 482 17886 17906 "nanoParse.ml" 482 17886 17914
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Parsing.parse_tables
+)
+ident(
+<<<<<<< HEAD
+  int_ref yytables "nanoParse.ml" 386 14405 14409 "nanoParse.ml" 386 14405 14417
+)
+"nanoParse.ml" 404 14995 15024 "nanoParse.ml" 404 14995 15025
+type(
+  int
+)
+"nanoParse.ml" 404 14995 15026 "nanoParse.ml" 404 14995 15032
+=======
+  int_ref yytables "nanoParse.ml" 464 17296 17300 "nanoParse.ml" 464 17296 17308
+)
+"nanoParse.ml" 482 17886 17915 "nanoParse.ml" 482 17886 17916
+type(
+  int
+)
+"nanoParse.ml" 482 17886 17917 "nanoParse.ml" 482 17886 17923
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+<<<<<<< HEAD
+  int_ref lexfun "nanoParse.ml" 403 14926 14935 "nanoParse.ml" 403 14926 14941
+)
+"nanoParse.ml" 404 14995 15033 "nanoParse.ml" 404 14995 15039
+=======
+  int_ref lexfun "nanoParse.ml" 481 17817 17826 "nanoParse.ml" 481 17817 17832
+)
+"nanoParse.ml" 482 17886 17924 "nanoParse.ml" 482 17886 17930
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+type(
+  Lexing.lexbuf
+)
+ident(
+<<<<<<< HEAD
+  int_ref lexbuf "nanoParse.ml" 403 14926 14969 "nanoParse.ml" 403 14926 14975
+=======
+  int_ref lexbuf "nanoParse.ml" 481 17817 17860 "nanoParse.ml" 481 17817 17866
+)
+"nanoParse.ml" 482 17886 17890 "nanoParse.ml" 482 17886 17930
+call(
+  tail
+>>>>>>> e0b24e8901a2f1b66b8ded2034fadb41d6cd2e50
+)
+"nanoParse.ml" 404 14995 14999 "nanoParse.ml" 404 14995 15039
+type(
+  Nano.expr
+)
+type(
+  Nano.expr
+)

@@ -15,10 +15,13 @@ let rec consAtTheEnd l e = match l with
 %token LPAREN RPAREN
 %token SEMI COLONCOLON
 /* ADD MORE TOKEN DECLARATIONS HERE */
-
+%token TRUE 
+%token FALSE
+%token MINUS DIV LT LE NE 
+%token REC ARROW IF THEN ELSE
 
 %start exp
-%type <Nano.expr> exp
+%type <Nan,o.expr> exp
 
 %%
 
@@ -26,6 +29,9 @@ exp       : exp8                       { $1 }
 
 exp8      : LET Id EQ exp IN exp       { Let($2,$4,$6) }
           /* ADD MORE RULES HERE */
+          | LET REC Id EQ exp IN exp   { Letrec ($3, $5, $7) } 
+          | FUN Id ARROW exp           { Fun ($2, $4) }
+          | IF exp THEN exp ELSE exp   { If ($2, $4, $6) }  
           | exp7                       { $1 }
 
 exp7      : exp7 OR exp6               { Bin($1,Or,$3) }
@@ -43,7 +49,7 @@ exp54     : exp4 COLONCOLON exp54      { Bin($1,Cons,$3) }
 
 exp4      : exp4 PLUS exp3             { Bin($1,Plus,$3) }
           /* ADD MORE RULES HERE */
-          | exp3                       { $1 }
+            | exp3                       { $1 }
 
 exp3      : exp3 MUL exp2              { Bin($1,Mul,$3) }
           /* ADD MORE RULES HERE */
@@ -54,6 +60,10 @@ exp2      : exp2 exp1                  { App($1,$2) }
 
 exp1      : Num                        { Const $1 }
           /* ADD MORE RULES HERE */
+          | TRUE                       { True } 
+          | FALSE                      { False } 
+          | Id                         { Var($1) } 
+           
           | LPAREN exp RPAREN          { $2 }
 
 expseq    : exp                        { consAtTheEnd NilExpr $1 }
