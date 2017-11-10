@@ -14,6 +14,8 @@ type token =
   | RPAREN
   | SEMI
   | COLONCOLON
+  | TRUE
+  | FALSE
 
 val exp :
   (Lexing.lexbuf  -> token) -> Lexing.lexbuf -> Nano.expr

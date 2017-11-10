@@ -15,6 +15,7 @@ let rec consAtTheEnd l e = match l with
 %token LPAREN RPAREN
 %token SEMI COLONCOLON
 /* ADD MORE TOKEN DECLARATIONS HERE */
+%token TRUE FALSE
 
 
 %start exp
@@ -54,6 +55,9 @@ exp2      : exp2 exp1                  { App($1,$2) }
 
 exp1      : Num                        { Const $1 }
           /* ADD MORE RULES HERE */
+          | TRUE                       { True }
+          | FALSE                      { False } 
+          | Id                         { Var($1) } 
           | LPAREN exp RPAREN          { $2 }
 
 expseq    : exp                        { consAtTheEnd NilExpr $1 }

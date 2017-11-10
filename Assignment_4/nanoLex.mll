@@ -11,6 +11,9 @@ rule token = parse
   | "let"        { LET }
   | "="          { EQ }
   (* ADD LEXING RULES FOR OTHER TOKENS HERE *)
+  | "true"       { TRUE }
+  | "false"      { FALSE }
+
 
   | digit+ as i                   { Num (int_of_string i) }
   (* Note: The order of these rules matter, so keep Id after all other lexemes *)

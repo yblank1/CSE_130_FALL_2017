@@ -14,6 +14,8 @@ type token =
   | RPAREN
   | SEMI
   | COLONCOLON
+  | TRUE
+  | FALSE
 
 open Parsing;;
 let _ = parse_error;;
@@ -25,7 +27,7 @@ open Nano
 let rec consAtTheEnd l e = match l with
   | NilExpr       -> Bin (e, Cons, NilExpr)
   | Bin(h, op, t) -> Bin (h, op,   consAtTheEnd t e)
-# 29 "nanoParse.ml"
+# 31 "nanoParse.ml"
 let yytransl_const = [|
     0 (* EOF *);
   259 (* LET *);
@@ -40,6 +42,8 @@ let yytransl_const = [|
   268 (* RPAREN *);
   269 (* SEMI *);
   270 (* COLONCOLON *);
+  271 (* TRUE *);
+  272 (* FALSE *);
     0|]
 
 let yytransl_block = [|
@@ -50,50 +54,52 @@ let yytransl_block = [|
 let yylhs = "\255\255\
 \001\000\002\000\002\000\003\000\003\000\004\000\004\000\005\000\
 \005\000\006\000\006\000\007\000\007\000\008\000\008\000\009\000\
-\009\000\010\000\010\000\011\000\011\000\000\000"
+\009\000\010\000\010\000\010\000\010\000\010\000\011\000\011\000\
+\000\000"
 
 let yylen = "\002\000\
 \001\000\006\000\001\000\003\000\001\000\003\000\001\000\003\000\
 \001\000\003\000\001\000\003\000\001\000\003\000\001\000\002\000\
-\001\000\001\000\003\000\001\000\003\000\002\000"
+\001\000\001\000\001\000\001\000\001\000\003\000\001\000\003\000\
+\002\000"
 
 let yydefred = "\000\000\
-\000\000\000\000\018\000\000\000\000\000\022\000\001\000\000\000\
-\000\000\000\000\009\000\000\000\000\000\000\000\017\000\000\000\
-\000\000\000\000\000\000\000\000\000\000\000\000\000\000\016\000\
-\000\000\019\000\000\000\000\000\008\000\000\000\010\000\000\000\
-\000\000\000\000\002\000"
+\000\000\000\000\018\000\021\000\000\000\000\000\019\000\020\000\
+\025\000\001\000\000\000\000\000\000\000\009\000\000\000\000\000\
+\000\000\017\000\000\000\000\000\000\000\000\000\000\000\000\000\
+\000\000\000\000\016\000\000\000\022\000\000\000\000\000\008\000\
+\000\000\010\000\000\000\000\000\000\000\002\000"
 
 let yydgoto = "\002\000\
-\006\000\007\000\008\000\009\000\010\000\011\000\012\000\013\000\
-\014\000\015\000\000\000"
+\009\000\010\000\011\000\012\000\013\000\014\000\015\000\016\000\
+\017\000\018\000\000\000"
 
-let yysindex = "\006\000\
-\003\255\000\000\000\000\009\255\003\255\000\000\000\000\007\255\
-\010\255\014\255\000\000\002\255\017\255\004\255\000\000\018\255\
-\015\255\004\255\004\255\004\255\004\255\004\255\004\255\000\000\
-\003\255\000\000\010\255\014\255\000\000\017\255\000\000\004\255\
-\021\255\003\255\000\000"
+let yysindex = "\007\000\
+\003\255\000\000\000\000\000\000\008\255\003\255\000\000\000\000\
+\000\000\000\000\001\255\017\255\024\255\000\000\013\255\009\255\
+\014\255\000\000\028\255\021\255\014\255\014\255\014\255\014\255\
+\014\255\014\255\000\000\003\255\000\000\017\255\024\255\000\000\
+\009\255\000\000\014\255\030\255\003\255\000\000"
 
 let yyrindex = "\000\000\
-\000\000\000\000\000\000\000\000\000\000\000\000\000\000\024\000\
-\002\000\051\000\000\000\045\000\023\000\001\000\000\000\000\000\
 \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\
-\000\000\000\000\013\000\057\000\000\000\034\000\000\000\012\000\
-\000\000\000\000\000\000"
+\000\000\000\000\024\000\002\000\051\000\000\000\045\000\023\000\
+\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\
+\000\000\000\000\000\000\000\000\000\000\013\000\057\000\000\000\
+\034\000\000\000\012\000\000\000\000\000\000\000"
 
 let yygindex = "\000\000\
-\251\255\000\000\000\000\010\000\011\000\244\255\000\000\014\000\
-\008\000\245\255\000\000"
+\250\255\000\000\000\000\015\000\016\000\240\255\000\000\017\000\
+\011\000\242\255\000\000"
 
 let yytablesize = 325
-let yytable = "\017\000\
-\015\000\005\000\024\000\003\000\003\000\004\000\001\000\029\000\
-\021\000\031\000\016\000\014\000\004\000\005\000\005\000\022\000\
-\018\000\020\000\019\000\033\000\024\000\025\000\013\000\003\000\
-\023\000\034\000\026\000\027\000\035\000\028\000\032\000\000\000\
-\000\000\012\000\030\000\000\000\000\000\000\000\000\000\000\000\
-\000\000\000\000\000\000\000\000\011\000\000\000\000\000\000\000\
+let yytable = "\020\000\
+\015\000\005\000\027\000\003\000\004\000\005\000\032\000\001\000\
+\034\000\019\000\021\000\014\000\004\000\006\000\003\000\004\000\
+\026\000\007\000\008\000\024\000\027\000\036\000\013\000\003\000\
+\006\000\022\000\025\000\023\000\007\000\008\000\038\000\028\000\
+\029\000\012\000\037\000\030\000\035\000\031\000\000\000\000\000\
+\033\000\000\000\000\000\000\000\011\000\000\000\000\000\000\000\
 \000\000\000\000\007\000\000\000\000\000\000\000\000\000\000\000\
 \006\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\
 \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\
@@ -130,13 +136,13 @@ let yytable = "\017\000\
 \011\000\000\000\000\000\007\000\007\000\006\000\007\000\000\000\
 \000\000\006\000\006\000\000\000\006\000"
 
-let yycheck = "\005\000\
-\000\000\000\000\014\000\001\001\001\001\003\001\001\000\020\000\
-\007\001\022\000\002\001\000\000\000\000\011\001\011\001\014\001\
-\010\001\004\001\009\001\025\000\032\000\004\001\000\000\000\000\
-\008\001\005\001\012\001\018\000\034\000\019\000\023\000\255\255\
-\255\255\000\000\021\000\255\255\255\255\255\255\255\255\255\255\
-\255\255\255\255\255\255\255\255\000\000\255\255\255\255\255\255\
+let yycheck = "\006\000\
+\000\000\000\000\017\000\001\001\002\001\003\001\023\000\001\000\
+\025\000\002\001\010\001\000\000\000\000\011\001\001\001\002\001\
+\008\001\015\001\016\001\007\001\035\000\028\000\000\000\000\000\
+\011\001\009\001\014\001\004\001\015\001\016\001\037\000\004\001\
+\012\001\000\000\005\001\021\000\026\000\022\000\255\255\255\255\
+\024\000\255\255\255\255\255\255\000\000\255\255\255\255\255\255\
 \255\255\255\255\000\000\255\255\255\255\255\255\255\255\255\255\
 \000\000\255\255\255\255\255\255\255\255\255\255\255\255\255\255\
 \255\255\255\255\255\255\255\255\255\255\255\255\255\255\255\255\
@@ -187,6 +193,8 @@ let yynames_const = "\
   RPAREN\000\
   SEMI\000\
   COLONCOLON\000\
+  TRUE\000\
+  FALSE\000\
   "
 
 let yynames_block = "\
@@ -199,159 +207,178 @@ let yyact = [|
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp8) in
     Obj.repr(
-# 24 "nanoParse.mly"
+# 26 "nanoParse.mly"
                                        ( _1 )
-# 205 "nanoParse.ml"
+# 213 "nanoParse.ml"
                : Nano.expr))
 ; (fun __caml_parser_env ->
     let _2 = (Parsing.peek_val __caml_parser_env 4 : string) in
     let _4 = (Parsing.peek_val __caml_parser_env 2 : Nano.expr) in
     let _6 = (Parsing.peek_val __caml_parser_env 0 : Nano.expr) in
     Obj.repr(
-# 26 "nanoParse.mly"
+# 28 "nanoParse.mly"
                                        ( Let(_2,_4,_6) )
-# 214 "nanoParse.ml"
+# 222 "nanoParse.ml"
                : 'exp8))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp7) in
     Obj.repr(
-# 28 "nanoParse.mly"
+# 30 "nanoParse.mly"
                                        ( _1 )
-# 221 "nanoParse.ml"
+# 229 "nanoParse.ml"
                : 'exp8))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp7) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp6) in
     Obj.repr(
-# 30 "nanoParse.mly"
+# 32 "nanoParse.mly"
                                        ( Bin(_1,Or,_3) )
-# 229 "nanoParse.ml"
+# 237 "nanoParse.ml"
                : 'exp7))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp6) in
     Obj.repr(
-# 31 "nanoParse.mly"
+# 33 "nanoParse.mly"
                                        ( _1 )
-# 236 "nanoParse.ml"
+# 244 "nanoParse.ml"
                : 'exp7))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp6) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp5) in
     Obj.repr(
-# 33 "nanoParse.mly"
+# 35 "nanoParse.mly"
                                        ( Bin(_1,And,_3) )
-# 244 "nanoParse.ml"
+# 252 "nanoParse.ml"
                : 'exp6))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp5) in
     Obj.repr(
-# 34 "nanoParse.mly"
+# 36 "nanoParse.mly"
                                        ( _1 )
-# 251 "nanoParse.ml"
+# 259 "nanoParse.ml"
                : 'exp6))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp5) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp54) in
     Obj.repr(
-# 36 "nanoParse.mly"
+# 38 "nanoParse.mly"
                                        ( Bin(_1,Eq,_3) )
-# 259 "nanoParse.ml"
+# 267 "nanoParse.ml"
                : 'exp5))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp54) in
     Obj.repr(
-# 38 "nanoParse.mly"
+# 40 "nanoParse.mly"
                                        ( _1 )
-# 266 "nanoParse.ml"
+# 274 "nanoParse.ml"
                : 'exp5))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp4) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp54) in
     Obj.repr(
-# 40 "nanoParse.mly"
+# 42 "nanoParse.mly"
                                        ( Bin(_1,Cons,_3) )
-# 274 "nanoParse.ml"
+# 282 "nanoParse.ml"
                : 'exp54))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp4) in
     Obj.repr(
-# 41 "nanoParse.mly"
+# 43 "nanoParse.mly"
                                        ( _1 )
-# 281 "nanoParse.ml"
+# 289 "nanoParse.ml"
                : 'exp54))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp4) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp3) in
     Obj.repr(
-# 43 "nanoParse.mly"
+# 45 "nanoParse.mly"
                                        ( Bin(_1,Plus,_3) )
-# 289 "nanoParse.ml"
+# 297 "nanoParse.ml"
                : 'exp4))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp3) in
     Obj.repr(
-# 45 "nanoParse.mly"
+# 47 "nanoParse.mly"
                                        ( _1 )
-# 296 "nanoParse.ml"
+# 304 "nanoParse.ml"
                : 'exp4))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'exp3) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'exp2) in
     Obj.repr(
-# 47 "nanoParse.mly"
+# 49 "nanoParse.mly"
                                        ( Bin(_1,Mul,_3) )
-# 304 "nanoParse.ml"
+# 312 "nanoParse.ml"
                : 'exp3))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp2) in
     Obj.repr(
-# 49 "nanoParse.mly"
+# 51 "nanoParse.mly"
                                        ( _1 )
-# 311 "nanoParse.ml"
+# 319 "nanoParse.ml"
                : 'exp3))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 1 : 'exp2) in
     let _2 = (Parsing.peek_val __caml_parser_env 0 : 'exp1) in
     Obj.repr(
-# 51 "nanoParse.mly"
+# 53 "nanoParse.mly"
                                        ( App(_1,_2) )
-# 319 "nanoParse.ml"
+# 327 "nanoParse.ml"
                : 'exp2))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : 'exp1) in
     Obj.repr(
-# 52 "nanoParse.mly"
+# 54 "nanoParse.mly"
                                        ( _1 )
-# 326 "nanoParse.ml"
+# 334 "nanoParse.ml"
                : 'exp2))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : int) in
     Obj.repr(
-# 54 "nanoParse.mly"
+# 56 "nanoParse.mly"
                                        ( Const _1 )
-# 333 "nanoParse.ml"
+# 341 "nanoParse.ml"
+               : 'exp1))
+; (fun __caml_parser_env ->
+    Obj.repr(
+# 58 "nanoParse.mly"
+                                       ( True )
+# 347 "nanoParse.ml"
+               : 'exp1))
+; (fun __caml_parser_env ->
+    Obj.repr(
+# 59 "nanoParse.mly"
+                                       ( False )
+# 353 "nanoParse.ml"
+               : 'exp1))
+; (fun __caml_parser_env ->
+    let _1 = (Parsing.peek_val __caml_parser_env 0 : string) in
+    Obj.repr(
+# 60 "nanoParse.mly"
+                                       ( Var(_1) )
+# 360 "nanoParse.ml"
                : 'exp1))
 ; (fun __caml_parser_env ->
     let _2 = (Parsing.peek_val __caml_parser_env 1 : Nano.expr) in
     Obj.repr(
-# 56 "nanoParse.mly"
+# 61 "nanoParse.mly"
                                        ( _2 )
-# 340 "nanoParse.ml"
+# 367 "nanoParse.ml"
                : 'exp1))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : Nano.expr) in
     Obj.repr(
-# 58 "nanoParse.mly"
+# 63 "nanoParse.mly"
                                        ( consAtTheEnd NilExpr _1 )
-# 347 "nanoParse.ml"
+# 374 "nanoParse.ml"
                : 'expseq))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'expseq) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : Nano.expr) in
     Obj.repr(
-# 59 "nanoParse.mly"
+# 64 "nanoParse.mly"
                                        ( consAtTheEnd _1      _3 )
-# 355 "nanoParse.ml"
+# 382 "nanoParse.ml"
                : 'expseq))
 (* Entry exp *)
 ; (fun __caml_parser_env -> raise (Parsing.YYexit (Parsing.peek_val __caml_parser_env 0)))
