@@ -16,6 +16,11 @@ type token =
   | COLONCOLON
   | TRUE
   | FALSE
+  | REC
+  | ARROW
+  | IF
+  | THEN
+  | ELSE
 
 val exp :
   (Lexing.lexbuf  -> token) -> Lexing.lexbuf -> Nano.expr

@@ -16,7 +16,7 @@ let rec consAtTheEnd l e = match l with
 %token SEMI COLONCOLON
 /* ADD MORE TOKEN DECLARATIONS HERE */
 %token TRUE FALSE
-
+%token REC ARROW IF THEN ELSE 
 
 %start exp
 %type <Nano.expr> exp
@@ -27,6 +27,9 @@ exp       : exp8                       { $1 }
 
 exp8      : LET Id EQ exp IN exp       { Let($2,$4,$6) }
           /* ADD MORE RULES HERE */
+          | LET REC Id EQ exp IN exp   { Letrec ($3, $5, $7) }
+          | FUN Id ARROW exp           { Fun ($2, $4) }
+          | IF exp THEN exp ELSE exp   { If ($2, $4, $6) }  
           | exp7                       { $1 }
 
 exp7      : exp7 OR exp6               { Bin($1,Or,$3) }
