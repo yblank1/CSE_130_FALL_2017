@@ -17,6 +17,8 @@ let rec consAtTheEnd l e = match l with
 /* ADD MORE TOKEN DECLARATIONS HERE */
 %token TRUE FALSE
 %token REC ARROW IF THEN ELSE 
+%token MINUS DIV LT LE NE 
+
 
 %start exp
 %type <Nano.expr> exp
@@ -40,6 +42,9 @@ exp6      : exp6 AND exp5              { Bin($1,And,$3) }
 
 exp5      : exp5 EQ exp54              { Bin($1,Eq,$3) }
           /* ADD MORE RULES HERE */
+          | exp5 LT exp54              { Bin($1,Lt,$3) }
+          | exp5 LE exp54              { Bin($1,Le,$3) }
+          | exp5 NE exp54              { Bin($1,Ne,$3) } 
           | exp54                      { $1 }
 
 exp54     : exp4 COLONCOLON exp54      { Bin($1,Cons,$3) }
@@ -47,10 +52,12 @@ exp54     : exp4 COLONCOLON exp54      { Bin($1,Cons,$3) }
 
 exp4      : exp4 PLUS exp3             { Bin($1,Plus,$3) }
           /* ADD MORE RULES HERE */
+          | exp4 MINUS exp3            { Bin($1,Minus,$3) } 
           | exp3                       { $1 }
 
 exp3      : exp3 MUL exp2              { Bin($1,Mul,$3) }
           /* ADD MORE RULES HERE */
+          | exp3 DIV exp2              { Bin($1,Div,$3) } 
           | exp2                       { $1 }
 
 exp2      : exp2 exp1                  { App($1,$2) }

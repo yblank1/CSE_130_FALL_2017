@@ -21,6 +21,11 @@ type token =
   | IF
   | THEN
   | ELSE
+  | MINUS
+  | DIV
+  | LT
+  | LE
+  | NE
 
 val exp :
   (Lexing.lexbuf  -> token) -> Lexing.lexbuf -> Nano.expr
