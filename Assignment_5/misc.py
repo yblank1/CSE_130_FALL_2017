@@ -38,11 +38,21 @@ def word_count(fn):
        of times they occur in the file.  A word is defined as a sequence of
        alphanumeric characters and _.  All spaces and punctuation are ignored.
        Words are returned in lower case"""
-    raise Failure("to be written")
-
-
-
-
+    word_count_dict = {} 
+    fileObj = open(fn, 'r')
+    for line in fileObj:
+        line = re.sub("\W", " ", line) 
+        print(line) 
+        words = line.split(" ")
+        for word in words:
+            if word == " ":    
+                continue
+            if word in word_count_dict:
+                word_count_dict[word] += 1 
+            else :
+                word_count_dict[word] = 1
+      
+    return word_count_dict
 
 
 
