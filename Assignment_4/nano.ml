@@ -113,23 +113,22 @@ let lookup (x,evn) = let result = listAssoc(x, evn) in
 
 (* Evaluates an expression e in environment evn *)
 let rec eval (evn,e) = match e with 
+    | Bin (a,b,c) -> match (lookup(a, evn), lookup (c, evn))  with  
+        | (Int a1, Int c1)  ->  
+            (match b with              
+                | Plus -> Int (a1 + b1)
+                | Minus -> Int (a1 - b1)
+                | Mul   -> Int (a1 * b1)
+                | Div   -> Int (a1 / b1)
+            ) 
+        | _             -> failwith ("Error: int must be passed")
     | Const const1 -> Int const1 
+    | True      -> Bool true
+    | False     -> Bool false 
     | Var s -> let s1 = (lookup(s, evn)) in (match s1 with
         | Int i1  -> Int i1 
         | _       -> failwith ("Error: int must be passed")) 
-    | Bin (a,b,c) -> 
-        let a1 = (match (eval (evn, a)) with 
-            | Int a -> a
-            | _     -> failwith("Error: Int must be passed")) in 
-        let c1 = (match (eval (evn, c)) with 
-            | Int c -> c 
-            | _     -> failwith("Error: Int must be passed")) in  
-        let result = (match b with  
-        | Plus -> Int (a1 + c1)
-        | Minus -> Int (a1 - c1) 
-        | Mul -> Int (a1 * c1)
-        | Div -> Int (a1 / c1))
-        in result
+         
 ;; 
 
 (**********************     Testing Code  ******************************)
