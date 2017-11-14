@@ -27,8 +27,11 @@ def closest_to(l,v):
  
 def make_dict(keys,values):
     """Return a dictionary pairing corresponding keys to values."""
-    raise Failure("to be written")
-   
+    dictRet = {}
+    for key,value in zip(keys,values):
+        dictRet[key] = value  
+    return dictRet
+ 
 # file IO functions
 def word_count(fn):
     """Open the file fn and return a dictionary mapping words to the number
