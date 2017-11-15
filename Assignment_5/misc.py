@@ -42,15 +42,12 @@ def word_count(fn):
     fileObj = open(fn, 'r')
     for line in fileObj:
         line = re.sub("\W", " ", line) 
-        print(line) 
-        words = line.split(" ")
+        words = line.split()
         for word in words:
-            if word == " ":    
-                continue
-            if word in word_count_dict:
-                word_count_dict[word] += 1 
+            if word.lower() in word_count_dict:
+                word_count_dict[word.lower()] += 1 
             else :
-                word_count_dict[word] = 1
+                word_count_dict[word.lower()] = 1
       
     return word_count_dict
 
