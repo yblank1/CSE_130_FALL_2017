@@ -7,7 +7,12 @@ def load_words(filename,regexp):
     """Load the words from the file filename that match the regular
        expression regexp.  Returns a list of matching words in the order
        they are in the file."""
-    raise Failure("to be written")
+    f = open(filename)
+    matching_words = []
+    for word in f:
+        if re.match(regexp, word.strip()):
+            matching_words.append(word.strip())
+    return matching_words
 
 def transform_reverse(str):
     raise Failure("to be written")
