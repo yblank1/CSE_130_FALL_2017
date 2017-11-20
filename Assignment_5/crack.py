@@ -71,7 +71,12 @@ rest]))
 def check_pass(plain,enc):
     """Check to see if the plaintext plain encrypts to the encrypted
        text enc"""
-    raise Failure("to be written")
+    salt = enc[:2]
+    code = enc[2:]
+    if enc == crypt.crypt(plain, salt):
+        return True
+    else:
+        return False  
 
 def load_passwd(filename):
     """Load the password file filename and returns a list of
