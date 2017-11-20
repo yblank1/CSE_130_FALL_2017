@@ -28,13 +28,46 @@ def transform_capitalize(str):
     if len(str) > 0:
         upper_forms = [(str[0].upper() + i) for i in transform_capitalize(str[1:])]
         lower_forms = [(str[0].lower() + i) for i in transform_capitalize(str[1:])]
-        return  upper_forms + lower_forms 
+        return  list(set(upper_forms + lower_forms)) 
     else:
         return [""]
 
 def transform_digits(str):
-    raise Failure("to be written")
-
+    if len(str) > 0:
+        rest = transform_digits(str[1:]) 
+        if str[0].lower() == 'o':
+            return list(set(["0" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 'z':
+            return list(set(["2" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 'a':
+            return list(set(["4" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 'b':
+            return list(set(["6" + i for i in rest] + ["8" + i for i in rest] + [str[0] +
+i for i in rest]))
+        elif str[0].lower() == 'i' or str[0].lower == 'l':
+            return list(set(["1" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 'e':
+            return list(set(["3" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 's': 
+            return list(set(["5" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 't': 
+            return list(set(["7" + i for i in rest] + [str[0] + i for i in
+rest]))
+        elif str[0].lower() == 'g' or str[0].lower() == 'q':
+            return list(set(["9" + i for i in rest] + [str[0] + i for i in
+rest])) 
+        else:
+            return list(set([str[0] + i for i in rest]))
+    else:
+        return [""] 
+    
+ 
 def check_pass(plain,enc):
     """Check to see if the plaintext plain encrypts to the encrypted
        text enc"""
