@@ -83,7 +83,15 @@ def load_passwd(filename):
        dictionaries with fields "account", "password", "UID", "GID",
        "GECOS", "directory", and "shell", each mapping to the
        corresponding field of the file."""
-    raise Failure("to be written")
+    f = open(filename)
+    list_of_pass_dicts = [] 
+    for l in f:
+        l_split = l.split(":")
+        d = {"account": l_split[0], "password": l_split[1], "UID":l_split[2],
+"GID":l_split[3], "GECOS":l_split[4], "directory":l_split[5],
+"shell":l_split[6]} 
+        list_of_pass_dicts.append(d)
+    return list_of_pass_dicts 
 
 def crack_pass_file(pass_filename,words_filename,out_filename):
     """Crack as many passwords in file fn_pass as possible using words
