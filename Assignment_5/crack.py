@@ -15,10 +15,22 @@ def load_words(filename,regexp):
     return matching_words
 
 def transform_reverse(str):
-    raise Failure("to be written")
+    ret = []
+    str_len = len(str) - 1
+    rev_string = "" 
+    for i in range(str_len, -1, -1):
+        rev_string = rev_string + str[i] 
+    ret.append(str)
+    ret.append(rev_string) 
+    return ret
 
 def transform_capitalize(str):
-    raise Failure("to be written")
+    if len(str) > 0:
+        upper_forms = [(str[0].upper() + i) for i in transform_capitalize(str[1:])]
+        lower_forms = [(str[0].lower() + i) for i in transform_capitalize(str[1:])]
+        return  upper_forms + lower_forms 
+    else:
+        return [""]
 
 def transform_digits(str):
     raise Failure("to be written")
