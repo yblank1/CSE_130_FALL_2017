@@ -97,4 +97,20 @@ class Vector(object):
             for i in self:
                 j = next_seq_iter.next()
                 dp += (i*j)
-            return dp 
+            return dp
+
+
+    def check_index(self, index):
+        if index < -len(self) or index >= len(self):
+            raise IndexError ("Error: Index out of bounds")
+        
+
+    def __getitem__(self, index):
+        return self.vect_list[index]
+
+    
+    def __setitem__(self, index, value):
+        self.check_index(index)
+        self.vect_list[index] = value
+
+ 
