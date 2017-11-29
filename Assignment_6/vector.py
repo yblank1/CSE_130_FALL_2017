@@ -100,9 +100,16 @@ class Vector(object):
             return dp
 
 
-    def check_index(self, index):
-        if index < -len(self) or index >= len(self):
-            raise IndexError ("Error: Index out of bounds")
+    def check_index(self, index, error=IndexError, get_only = True):
+        if isinstance(index, slice):
+            start = index.start
+            stop = index.stop
+            self.check_index(start, ValueError)
+            if get_only == False:
+                self.check_index(stop, ValueError) 
+        elif index < -len(self) or index > len(self):
+            print(index) 
+            raise error ("Error: Index out of bounds")
         
 
     def __getitem__(self, index):
@@ -110,7 +117,16 @@ class Vector(object):
 
     
     def __setitem__(self, index, value):
-        self.check_index(index)
+        self.check_index(index, False)
         self.vect_list[index] = value
-
- 
+""""
+    def __getslice__(self, i, j):
+        self.check_index(i)
+        self.check_index(j)
+  #      return self.vect_list[i:j]
+""
+    def __setslice__(self, i, j, seq):
+        self.check_index(i, ValueError)
+        self.check_index(j, ValueError)
+        self.vect_list[i:j] = seq
+"""
