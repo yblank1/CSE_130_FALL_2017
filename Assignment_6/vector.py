@@ -22,7 +22,7 @@ class Vector(object):
                 self.length = arg
     
     # Case 2: arg is of type sequence. Create a 
-        elif isinstance(arg, (list, tuple, str, bytearray)):
+        elif isinstance(arg, (list, tuple, str, bytearray, buffer, xrange, unicode)):
             self.length = len(arg)
             self.vect_list = []
             for i in arg:

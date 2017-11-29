@@ -14,9 +14,65 @@ class profiled(object):
         self.__count=0
 
 class traced(object):
+    """ A decorator class that traces the function calls of a 
+        recursive function. It prints the arguments used each 
+        time as well as all the return values"""
+
     def __init__(self,f):
+        """ Constructor for the decorator class"""
         # replace this and fill in the rest of the class
-        self.__name__="NOT_IMPLEMENTED"
+        self.__name__=f.__name__
+        self.__f = f
+        self.nested_level = 0
+    
+    def __call__(self, *args, **dargs):
+        """ Runs upon call of decorated function. Handles 
+            all the string building to print trace log"""
+        str_trace = "" 
+        self.args_written = False 
+        # Print the bars  
+        for i in range(self.nested_level):
+            str_trace += "| "
+        self.nested_level += 1 
+        str_trace += ",- "
+        str_trace += (self.__name__ + "(")
+        
+        if len(args) > 0:
+            self.args_written = True
+            str_trace += str(args[0])
+        for i in args[1:]:
+            str_trace += (", " + str(i)) 
+        
+        # Now deal with **dargs
+        if self.args_written and len(dargs) > 0:
+            str_trace += ", "
+        self.dargs_vals = dargs.items()
+        
+        if self.args_written == True and len(self.dargs_vals) > 0:
+            str_trace += ", "
+        
+        if len(self.dargs_vals) > 0:     
+            i, j = self.dargs_vals[0]
+            str_trace += (str(i) + "=" + str(j)) 
+     
+        for i, j in self.dargs_vals[1:]:
+            str_trace += (", " + str(i) + "=" + str(j)) 
+     
+        str_trace += ")"
+        print(str_trace) 
+        
+        # Print the return value 
+        ret_val = self.__f(*args, **dargs)
+        self.nested_level -= 1
+        str_trace = "" 
+        for i in range(self.nested_level):
+            str_trace += "| "
+        str_trace += "`- " 
+        str_trace += repr(ret_val)
+        print(str_trace)
+        return ret_val
+
+
 
 class memoized(object):
     def __init__(self,f):
