@@ -1,3 +1,7 @@
 Quotation marks are not appearing around string in vector. Not sure if I have to
 include them or not. 
+What happens when + or += is called and the lengths are not the same? Is the
+behavior also undefined??
+Check types in .dot() function 
+
 

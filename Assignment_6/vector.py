@@ -80,4 +80,21 @@ class Vector(object):
     def __iadd__(self, nextSeq):
         new_list = self.__add__(nextSeq)
         self.vect_list = new_list.vect_list
-        return self 
+        return self
+
+    def dot(self, next_seq):
+        """ Returns the dot product of the vector and another sequence. Throws\
+        a valueError if the lengths don't match or a typeError if it is not a
+        sequence"""
+        # Check to ensure that next_seq is a sequence
+
+        # Check that the lengths are the same
+        if len(self) != len(next_seq):
+            raise ValueError ("Error: Dot product lengths must be the same")
+        else:
+            dp = 0
+            next_seq_iter = next_seq.__iter__() 
+            for i in self:
+                j = next_seq_iter.next()
+                dp += (i*j)
+            return dp 
