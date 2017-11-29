@@ -50,4 +50,11 @@ class Vector(object):
         ret_string += "])"
         return ret_string
 
-    
+   
+    """ Function that returns the length of the vector """
+    def __len__(self):
+        return self.length
+
+    def __iter__(self):
+        return self.vect_list.__iter__()
+ 
