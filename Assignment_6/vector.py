@@ -113,20 +113,74 @@ class Vector(object):
         
 
     def __getitem__(self, index):
+        if isinstance(index, slice):
+            return Vector(self.vect_list[index]) 
         return self.vect_list[index]
 
     
     def __setitem__(self, index, value):
         self.check_index(index, False)
         self.vect_list[index] = value
-""""
-    def __getslice__(self, i, j):
-        self.check_index(i)
-        self.check_index(j)
-  #      return self.vect_list[i:j]
-""
-    def __setslice__(self, i, j, seq):
-        self.check_index(i, ValueError)
-        self.check_index(j, ValueError)
-        self.vect_list[i:j] = seq
-"""
+
+
+    def __eq__(self, obj):
+        """ Checks whether a vector is equal to another object """
+        if not isinstance(obj, Vector):
+            return False
+        # Check if the lengths of the vectors are the same
+        if len(self) != len(obj):
+            return False
+        # Check for equality component-wise
+        for i, j in enumerate(self.vect_list):
+            if j != obj[i]:
+                return False
+        return True
+                 
+
+    def __ne__(self, obj):
+        """ Checks whether a vector is not equal to another object """
+        return not self.__eq__(obj)
+
+    def gt_ge_helper(self, vect, ge = False):
+        temp_self_list = list(self.vect_list)
+        temp_vect_list = list(vect.vect_list)
+        while(1):
+            if len(temp_self_list) == 0:
+                if ge == False: 
+                    return False
+                else:
+                    return True 
+            if max(temp_self_list) > max(temp_vect_list):
+                return True
+            elif max(temp_self_list) == max(temp_vect_list) and len(temp_self_list) > 0:
+                temp_self_list.remove(max(temp_self_list))
+                temp_vect_list.remove(max(temp_vect_list))
+                continue 
+            else:
+                return False 
+
+    def __gt__(self, vect):
+        """ Checks whether a vector is greater than another. It is defined 
+        as the greatest element in the first vector being greater than the 
+        greatest element in the second vector. Vectors are assumed to be of 
+        the same length.""" 
+        return self.gt_ge_helper(vect)
+
+    def __lt__(self, vect):
+        """ Checks whether a vector is less than another. It is defined as 
+        the greatest element in the first vector being less than the greatest
+        element in the second fvector. The argument is assumed to be a vector
+        and the vectors are assumed to be of the same length. """
+        return vect.__gt__(self) 
+
+ 
+    def __ge__(self, vect):
+        return self.gt_ge_helper(vect, True)   
+ 
+    def __le__(self, vect):
+        return vect.__ge__(vect)
+
+"""        if (self < vect) or (self == vect):
+            return True 
+        return False     
+  """
