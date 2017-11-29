@@ -76,8 +76,43 @@ class traced(object):
 
 class memoized(object):
     def __init__(self,f):
-        # replace this and fill in the rest of the class
-        self.__name__="NOT_IMPLEMENTED"
+        self.__name__=f.__name__
+        self.args_dict = {}
+        self.__f = f
+    
+    def __call__(self, *args, **dargs):
+
+        # If the arg was already found - return or raise immeidately
+        if args in self.args_dict:
+            poss_results = self.args_dict[args]
+            for i, j in poss_results:
+                if i == dargs:
+                    if isinstance(j, Exception):
+                        raise j
+                    return j
+   
+        # If not already found then :: 
+        # Save the result - whehter it returns regularly or
+        # raises an exception
+        try: 
+            result = self.__f(*args, **dargs) 
+        except Exception as e:
+            result = e
+ 
+        # If args is in but the dict doesn't contain dargs 
+        if args in self.args_dict:
+            self.args_dict[args].append((dargs, result))
+             
+        # If the dictionary has never seen either 
+        else: 
+            self.args_dict[args] = [(dargs, result)] 
+        
+        # Return the value or raise the exception        
+        if isinstance(result, Exception):
+            raise result
+ 
+        return result  
+
 
 # run some examples.  The output from this is in decorators.out
 def run_examples():
