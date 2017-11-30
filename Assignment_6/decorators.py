@@ -17,13 +17,14 @@ class traced(object):
     """ A decorator class that traces the function calls of a 
         recursive function. It prints the arguments used each 
         time as well as all the return values"""
-
+    
+    nested_level = 0
     def __init__(self,f):
         """ Constructor for the decorator class"""
         # replace this and fill in the rest of the class
         self.__name__=f.__name__
         self.__f = f
-        self.nested_level = 0
+        #self.nested_level = 0
     
     def __call__(self, *args, **dargs):
         """ Runs upon call of decorated function. Handles 
@@ -31,9 +32,10 @@ class traced(object):
         str_trace = "" 
         self.args_written = False 
         # Print the bars  
-        for i in range(self.nested_level):
+        #for i in range(self.nested_level):
+        for i in range(traced.nested_level): 
             str_trace += "| "
-        self.nested_level += 1 
+        traced.nested_level += 1 
         str_trace += ",- "
         str_trace += (self.__name__ + "(")
         
@@ -61,11 +63,17 @@ class traced(object):
         str_trace += ")"
         print(str_trace) 
         
-        # Print the return value 
-        ret_val = self.__f(*args, **dargs)
-        self.nested_level -= 1
+        # Print the return value
+        
+        try: 
+            ret_val = self.__f(*args, **dargs)
+        except Exception as e:
+            traced.nested_level -= 1
+            raise e 
+        #self.nested_level -= 1
+        traced.nested_level -= 1 
         str_trace = "" 
-        for i in range(self.nested_level):
+        for i in range(traced.nested_level):
             str_trace += "| "
         str_trace += "`- " 
         str_trace += repr(ret_val)
@@ -83,13 +91,12 @@ class memoized(object):
     def __call__(self, *args, **dargs):
 
         # If the arg was already found - return or raise immeidately
-        if args in self.args_dict:
-            poss_results = self.args_dict[args]
-            for i, j in poss_results:
-                if i == dargs:
-                    if isinstance(j, Exception):
-                        raise j
-                    return j
+        args_set = str(args) + str(dargs) 
+        if args_set in self.args_dict:
+            j = self.args_dict[args_set]
+            if isinstance(j, Exception):
+                raise j
+            return j
    
         # If not already found then :: 
         # Save the result - whehter it returns regularly or
@@ -99,13 +106,8 @@ class memoized(object):
         except Exception as e:
             result = e
  
-        # If args is in but the dict doesn't contain dargs 
-        if args in self.args_dict:
-            self.args_dict[args].append((dargs, result))
-             
         # If the dictionary has never seen either 
-        else: 
-            self.args_dict[args] = [(dargs, result)] 
+        self.args_dict[args_set] = result
         
         # Return the value or raise the exception        
         if isinstance(result, Exception):

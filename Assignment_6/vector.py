@@ -11,7 +11,6 @@ class Vector(object):
     # Case 1: it is of type int, long, or a class derived from those
         if isinstance(arg, (int, long)):
            
-            # TODO - print relevant message  
             # If it is negative, raise failure
             if (arg < 0): raise ValueError("Error: int or long passed to vector\
                 constructor must be greater than zero")
@@ -40,14 +39,15 @@ class Vector(object):
 
     def __repr__(self):
         """ Returns a string representing elements in vector as a list """
-        ret_string = "Vector(["
-        if self.length > 0:
+        ret_string = ("Vector(" + self.vect_list.__repr__() + ")")
+        """       
+            if self.length > 0:
             ret_string += str(self.vect_list[0])
           
             for i in range(1, self.length): 
                 ret_string += ", " + str(self.vect_list[i])
             
-        ret_string += "])"
+        ret_string += "])"  """
         return ret_string
 
    
