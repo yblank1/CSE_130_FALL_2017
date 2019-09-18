@@ -1,7 +1,6 @@
 # CSE 130 Assignments 
 
-This repository will hold all the assignments for CSE 130 - Programming Languages and Principles. 
+This repository holds all the solutions for assignments given in CSE 130 - Programming Languages and Principles. 
 
-The first few projects are written in OCAML and are written to explore the functionality of
-a functional language. 
+Projects are written in OCAML, Python, and Prolog. Note that the purpose of the course was to introduce us to the unique parts of each language and thus the code written here likely does not reflect production standards.
 
